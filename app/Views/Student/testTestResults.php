@@ -99,6 +99,39 @@
                       } ?>
                     </tbody>
                   </table>
+                </div>
+                <div class="col-xl-11 col-lg-11 col-md-11 col-sm-12 pe-5  mt-5">
+                  <div class="contentHeading2">
+                    <h2>Test Results</h2>
+                  </div>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Subject </th>
+                        <th scope="col">Download </th>
+                        <th scope="col"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row"></th>
+                        <td>Date</td>
+                        <td>Subject</td>
+                        <td>
+                          <a href="#" download>
+                            <span class="badge bg-danger">Download</span>
+                          </a>
+                        </td>
+                        <td class="removeBtn" > 
+                          <a href="#" >
+                            <span class="badge bg-danger"><i class="fas fa-times"></i></span>
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
 
                   <div class="dash-shapeBox2">
                     <div class="dash-shape2">

@@ -69,6 +69,7 @@
                         <th scope="col">Date</th>
                         <th scope="col">Subject</th>
                         <th scope="col">Quiz</th>
+                        <th scope="col">Marks</th>
                         <th scope="col"></th>
                       </tr>
                     </thead>
@@ -83,7 +84,9 @@
                           {
                           ?>
                           <tr>
-                        <th scope="row"></th>
+                        <th scope="row">
+                          <!-- <?php echo $i; ?> -->
+                        </th>
                         <td><?php $update_date = $time=strtotime($all_quiz->created_at) ; 
                                 echo $month =date('M', $update_date).' ';
                                 echo $date =date('d', $update_date).', ';
@@ -198,6 +201,7 @@
                               </div>
                             </div>
                         </td>
+                        <td>Marks</td>
                         
                         <td class="removeBtn" > 
                           <a href="#" >
