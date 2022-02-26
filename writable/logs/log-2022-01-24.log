@@ -1,0 +1,425 @@
+CRITICAL - 2022-01-24 00:14:36 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Quiz->add_new_question()
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Quiz))
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-24 00:23:43 --> Array to string conversion
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Quiz.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Quiz->add_new_question()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Quiz))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-24 00:26:52 --> Unsupported operand types: array + int
+#0 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Quiz->add_new_question()
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Quiz))
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-24 00:29:39 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Teacher\Quiz->add_new_question()
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Quiz))
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-24 00:30:54 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\alba_educations\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\alba_educations\system\Model.php(798): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\Teacher\Quiz.php(146): CodeIgniter\Model->__call('get_total_quest...', Array)
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Teacher\Quiz->add_new_question()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Quiz))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-24 00:32:57 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\alba_educations\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\alba_educations\system\Model.php(798): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\Teacher\Quiz.php(146): CodeIgniter\Model->__call('get_total_quest...', Array)
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Teacher\Quiz->add_new_question()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Quiz))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-01-24 00:55:29 --> Unknown column 'user_student_id' in 'where clause'
+CRITICAL - 2022-01-24 00:55:29 --> Unknown column 'user_student_id' in 'where clause'
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `grade`\n...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `grade`\n...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `grade`\n...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `grade`\n...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Quiz_Model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(15): App\Models\Student\Quiz_Model->get_grade('5')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->quiz_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-24 00:57:40 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\alba_educations\system\Database\Query.php(381): implode(',', Array)
+#1 C:\xampp\htdocs\alba_educations\system\Database\Query.php(355): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#2 C:\xampp\htdocs\alba_educations\system\Database\Query.php(170): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\alba_educations\app\Models\Student\Quiz_Model.php(24): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(18): App\Models\Student\Quiz_Model->all_student_quizs(Array)
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->quiz_page()
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#9 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-24 00:58:26 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\alba_educations\system\Database\Query.php(381): implode(',', Array)
+#1 C:\xampp\htdocs\alba_educations\system\Database\Query.php(355): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#2 C:\xampp\htdocs\alba_educations\system\Database\Query.php(170): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\alba_educations\app\Models\Student\Quiz_Model.php(24): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(18): App\Models\Student\Quiz_Model->all_student_quizs(Array)
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->quiz_page()
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#9 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-24 01:07:12 --> Undefined variable $pending_quiz
+#0 C:\xampp\htdocs\alba_educations\app\Views\Student\quiz.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/quiz', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(18): view('Student/quiz', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->quiz_page()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-24 01:08:06 --> Undefined variable $pending_quiz
+#0 C:\xampp\htdocs\alba_educations\app\Views\Student\quiz.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/quiz', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(23): view('Student/quiz', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->quiz_page()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-24 01:13:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `quiz`
+JOIN `quiz_questions` ON `quiz`.`quiz_id` = `quiz_questions`.`q...' at line 1
+CRITICAL - 2022-01-24 01:13:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `quiz`
+JOIN `quiz_questions` ON `quiz`.`quiz_id` = `quiz_questions`.`q...' at line 1
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *, *\nFRO...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, *\nFRO...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, *\nFRO...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *, *\nFRO...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Quiz_Model.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(16): App\Models\Student\Quiz_Model->all_student_quizs('4')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->quiz_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-24 01:14:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `quiz`
+JOIN `quiz_questions` ON `quiz`.`quiz_id` = `quiz_questions`.`q...' at line 1
+CRITICAL - 2022-01-24 01:14:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `quiz`
+JOIN `quiz_questions` ON `quiz`.`quiz_id` = `quiz_questions`.`q...' at line 1
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *, *\nFRO...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, *\nFRO...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, *\nFRO...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *, *\nFRO...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Quiz_Model.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(16): App\Models\Student\Quiz_Model->all_student_quizs('4')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->quiz_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-24 01:16:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `quiz`
+JOIN `quiz_questions` ON `quiz_questions`.`quiz_id` = `quiz`.`q...' at line 1
+CRITICAL - 2022-01-24 01:16:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `quiz`
+JOIN `quiz_questions` ON `quiz_questions`.`quiz_id` = `quiz`.`q...' at line 1
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *, *\nFRO...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, *\nFRO...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, *\nFRO...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *, *\nFRO...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Quiz_Model.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(16): App\Models\Student\Quiz_Model->all_student_quizs('4')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->quiz_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-24 01:16:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `quiz`
+JOIN `quiz_questions` ON `quiz`.`quiz_id` = `quiz_questions`.`q...' at line 1
+CRITICAL - 2022-01-24 01:16:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `quiz`
+JOIN `quiz_questions` ON `quiz`.`quiz_id` = `quiz_questions`.`q...' at line 1
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *, *\nFRO...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, *\nFRO...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, *\nFRO...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *, *\nFRO...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Quiz_Model.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(16): App\Models\Student\Quiz_Model->all_student_quizs('4')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->quiz_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-24 01:16:54 --> Column 'status' in where clause is ambiguous
+CRITICAL - 2022-01-24 01:16:54 --> Column 'status' in where clause is ambiguous
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Quiz_Model.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(16): App\Models\Student\Quiz_Model->all_student_quizs('4')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->quiz_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-24 01:17:09 --> Column 'quiz_id' in order clause is ambiguous
+CRITICAL - 2022-01-24 01:17:09 --> Column 'quiz_id' in order clause is ambiguous
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Quiz_Model.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(16): App\Models\Student\Quiz_Model->all_student_quizs('4')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->quiz_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-24 01:28:40 --> Undefined property: stdClass::$option1
+#0 C:\xampp\htdocs\alba_educations\app\Views\Student\quiz.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/quiz', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(24): view('Student/quiz', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->quiz_page()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-24 02:23:19 --> array_push(): Argument #1 ($array) must be of type array, string given
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(47): array_push('4', Array)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->submit_quiz()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-24 02:26:52 --> Undefined array key 3
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->submit_quiz()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-24 02:27:37 --> Undefined array key 3
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->submit_quiz()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-24 02:31:27 --> syntax error, unexpected identifier "es"
+#0 C:\xampp\htdocs\alba_educations\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\alba_educations\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-24 02:38:23 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\alba_educations\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\alba_educations\system\Model.php(798): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(64): CodeIgniter\Model->__call('add_new_data_wi...', Array)
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->submit_quiz()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-24 02:38:50 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\alba_educations\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\alba_educations\system\Model.php(798): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(64): CodeIgniter\Model->__call('add_new_data_wi...', Array)
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->submit_quiz()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-24 02:53:58 --> Undefined array key 3
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->submit_quiz()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-24 02:55:27 --> Undefined array key 3
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->submit_quiz()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-24 02:56:19 --> Array to string conversion
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->submit_quiz()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-24 02:56:37 --> Undefined array key 3
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->submit_quiz()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-24 02:59:40 --> Undefined array key 3
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->submit_quiz()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-24 03:10:15 --> Class "App\Controllers\Teacher\stdFunctions_Model" not found
+#0 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Teacher\Quiz->teacherTestResults()
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Quiz))
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-24 03:11:16 --> Class "App\Controllers\Teacher\stdFunctions_Model" not found
+#0 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Teacher\Quiz->teacherTestResults()
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Quiz))
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-24 03:36:24 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->students_subjects()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-24 03:36:32 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->students_subjects()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-24 04:33:35 --> Unknown column 'quiz_id' in 'where clause'
+CRITICAL - 2022-01-24 04:33:35 --> Unknown column 'quiz_id' in 'where clause'
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Admin\functions_Model.php(66): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(156): App\Models\Admin\functions_Model->update_row('report_card', Array, Array)
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->get_report()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-24 04:33:52 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\alba_educations\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\alba_educations\system\Model.php(798): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(160): CodeIgniter\Model->__call('all_teacher_qui...', Array)
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->get_report()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-24 04:35:19 --> Invalid file: Teacher/reportCard.php
+#0 C:\xampp\htdocs\alba_educations\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Teacher/reportC...')
+#1 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Teacher/reportC...', Array, true)
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(160): view('Teacher/reportC...', Array)
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->get_report()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-24 04:45:02 --> Attempt to read property "subject" on array
+#0 C:\xampp\htdocs\alba_educations\app\Views\Student\reportCardPreview.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 154)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/reportC...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(160): view('Student/reportC...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->get_report()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-24 04:45:37 --> Attempt to read property "grade" on array
+#0 C:\xampp\htdocs\alba_educations\app\Views\Student\reportCardPreview.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 154)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/reportC...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Quiz.php(160): view('Student/reportC...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Quiz->get_report()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Quiz))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-24 13:59:21 --> Invalid file: Frontend/ParentSupport_parentCounselling.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Frontend/Parent...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('Frontend/Parent...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/FrontEnd/Parents.php(42): view('Frontend/Parent...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\Parents->submit_parent_counseling_forms()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Parents))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-24 13:59:32 --> Invalid file: Frontend/ParentSupport_parentCounselling.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Frontend/Parent...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('Frontend/Parent...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/FrontEnd/Parents.php(42): view('Frontend/Parent...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\Parents->submit_parent_counseling_forms()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Parents))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-24 16:46:48 --> Invalid file: Frontend/StudyMaterial_bookYourDemo.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Frontend/StudyM...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('Frontend/StudyM...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/FrontEnd/StudyMaterial.php(379): view('Frontend/StudyM...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\StudyMaterial->book_your_demo()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\StudyMaterial))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-24 17:09:09 --> Invalid file: Frontend/StudyMaterial_bookYourDemo.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Frontend/StudyM...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('Frontend/StudyM...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/FrontEnd/StudyMaterial.php(366): view('Frontend/StudyM...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\StudyMaterial->book_your_demo()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\StudyMaterial))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-24 17:13:04 --> Invalid file: Frontend/StudyMaterial_bookYourDemo.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Frontend/StudyM...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('Frontend/StudyM...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/FrontEnd/StudyMaterial.php(372): view('Frontend/StudyM...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\StudyMaterial->book_your_demo()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\StudyMaterial))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-24 17:54:57 --> Invalid file: Frontend/StudyMaterial_bookYourDemo.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Frontend/StudyM...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('Frontend/StudyM...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/FrontEnd/StudyMaterial.php(379): view('Frontend/StudyM...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\StudyMaterial->book_your_demo()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\StudyMaterial))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

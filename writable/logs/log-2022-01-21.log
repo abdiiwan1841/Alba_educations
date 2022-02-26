@@ -1,0 +1,76 @@
+CRITICAL - 2022-01-21 11:57:25 --> Invalid file: Teacher/teacherCertification.php
+#0 C:\xampp\htdocs\alba_educations\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Teacher/teacher...')
+#1 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Teacher/teacher...', Array, true)
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\Teacher\Certification.php(13): view('Teacher/teacher...')
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Teacher\Certification->teacherCertification()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Certification))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-01-21 12:19:25 --> Error connecting to the database: Unknown database 'alba_educations'
+CRITICAL - 2022-01-21 12:19:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'alba_educations'
+#0 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\alba_educations\app\Models\frontEnd\User_Model.php(11): CodeIgniter\Database\BaseBuilder->countAllResults()
+#3 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\Student.php(27): App\Models\frontEnd\User_model->login_request(Array)
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\Student->student_login()
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Student))
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-21 12:34:29 --> Error connecting to the database: Unknown database 'alba_educations'
+CRITICAL - 2022-01-21 12:34:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'alba_educations'
+#0 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\alba_educations\app\Models\frontEnd\User_Model.php(11): CodeIgniter\Database\BaseBuilder->countAllResults()
+#3 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\Student.php(27): App\Models\frontEnd\User_model->login_request(Array)
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\Student->student_login()
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Student))
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-21 12:38:29 --> Error connecting to the database: Unknown database 'alba_educations'
+CRITICAL - 2022-01-21 12:38:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'alba_educations'
+#0 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\alba_educations\app\Models\frontEnd\User_Model.php(11): CodeIgniter\Database\BaseBuilder->countAllResults()
+#3 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\Student.php(27): App\Models\frontEnd\User_model->login_request(Array)
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\Student->student_login()
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Student))
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-21 16:17:22 --> Invalid file: admin/adminRequestRescheduleClass.php
+#0 C:\xampp\htdocs\alba_educations\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Requests.php(96): view('admin/adminRequ...')
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestRescheduleClass()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-21 20:43:47 --> Invalid file: Teacher/teacherBilling.php
+#0 C:\xampp\htdocs\alba_educations\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Teacher/teacher...')
+#1 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Teacher/teacher...', Array, true)
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\Teacher\Billing.php(13): view('Teacher/teacher...')
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Teacher\Billing->teacherBilling()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Billing))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-21 23:57:42 --> cURL error 6: Could not resolve host: api.razorpay.com
+#0 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\libs\Requests-1.8.0\library\Requests\Transport\cURL.php(179): Requests_Transport_cURL->process_response('', Array)
+#1 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\libs\Requests-1.8.0\library\Requests.php(381): Requests_Transport_cURL->request('https://api.raz...', Array, Array, Array)
+#2 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\src\Request.php(57): Requests::request('https://api.raz...', Array, Array, 'POST', Array)
+#3 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\src\Entity.php(92): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#4 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#5 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\src\Order.php(12): Razorpay\Api\Entity->create(Array)
+#6 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\StudyMaterial.php(41): Razorpay\Api\Order->create(Array)
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\StudyMaterial->regular_plan_submit()
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\StudyMaterial))
+#9 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

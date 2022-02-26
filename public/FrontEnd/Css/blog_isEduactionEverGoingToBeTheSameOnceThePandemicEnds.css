@@ -1,0 +1,307 @@
+.blog-details .blog-details-content {
+    padding: 30px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.blog-details .blog-details-content .blog-entry-meta {
+    margin-bottom: 10px;
+}
+
+.blog-details .blog-details-content .blog-entry-meta ul {
+    margin-bottom: 10px;
+    padding-left: 0 !important;
+}
+
+.blog-details .blog-details-content .blog-entry-meta li {
+    padding-left: 30px;
+}
+.blog-details .blog-details-content ul li {
+    list-style: disc;
+    line-height: 1.8;
+    margin-bottom: 5px;
+}
+.blog-entry-meta ul li {
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+    border-right: 1px solid #eeeeee;
+    color: #606060 !important;
+    font-weight: 600;
+    font-size: 14px;
+    padding-right: 20px;
+    
+}
+
+.blog-entry-meta ul li i {
+    font-size: 20px;
+    color: #cfcfcf;
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+.blog-entry-meta ul li a {
+    display: inline-block;
+    color: #221638;
+    text-decoration: none !important;
+    text-transform: capitalize;
+}
+
+
+.blog-article-author {
+    margin-top: 30px;
+    border-radius: 5px;
+    background: #f8f8f8;
+}
+
+.blog-article-author .blog-author-profile-header {
+    height: 115px;
+    border-radius: 5px 5px 0 0;
+    background-image: url(/Image/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.blog-article-author .blog-author-profile {
+    padding: 0 25px 25px;
+}
+
+
+.blog-article-author .blog-author-profile .blog-author-profile-title {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 15px;
+    margin-top: -45px;
+}
+
+.blog-article-author .blog-author-profile .blog-author-profile-title img {
+    display: inline-block;
+    border: 3px solid #ffffff;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border-radius: 50%!important;
+}
+
+.blog-article-author .blog-author-profile .blog-author-profile-title .blog-author-profile-title-details {
+    margin-top: 20px;
+}
+
+
+ .blog-author-profile-title .blog-author-profile-title-details .blog-author-profile-details h4 {
+    margin-bottom: -5px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+
+
+
+#comments {
+    clear: both;
+    padding: 30px;
+    margin-top: 30px;
+    list-style: none;
+    background-color: #ffffff;
+}
+
+.blog-comments-area {
+    background-color: #ffffff;
+    padding: 25px;
+}
+
+.blog-comments-area .blog-comment-respond .comment-reply-title {
+    margin: 0;
+    position: relative;
+    font-size: 22px;
+    font-weight: 800;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    
+}
+
+
+
+
+
+
+
+.comment-form {
+    overflow: hidden;
+}
+
+.comment-notes {
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+p.comment-notes {
+    line-height: 25px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+p {
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 25px;
+    color: #606060;
+    margin-bottom: 15px;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+ .required {
+    color: red;
+}
+
+.blog-comments-area .blog-comment-respond .comment-form-comment {
+    margin-top: 15px;
+    float: left;
+    width: 100%;
+}
+
+.blog-comment-respond p.comment-form-comment {
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+}
+.blog-comment-respond p {
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+
+.blog-comments-area .blog-comment-respond label {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #221638;
+}
+
+.blog-comments-area .blog-comment-respond textarea, .blog-comments-area .blog-comment-respond input[type=text] , .blog-comments-area .blog-comment-respond input[type=url] , .blog-comments-area .blog-comment-respond input[type=email] {
+    display: block;
+    width: 100%;
+    background-color: #f4f4f4;
+    border: none;
+    padding: 0 0 0 15px;
+    height: 50px;
+    outline: 0;
+    border-radius: 3px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.blog-comment-respond textarea {
+    height: auto !important;
+    padding-top: 15px !important;
+    padding-left: 15px !important;
+}
+
+
+.blog-comments-area .blog-comment-respond .comment-form-author {
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+    margin-bottom: 0;
+}
+
+
+.blog-comments-area .blog-comment-respond .comment-form-email {
+    float: left;
+    width: 50%;
+    padding-left: 12px;
+    margin-bottom: 0;
+}
+
+
+
+.blog-comments-area .blog-comment-respond .comment-form-url {
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+}
+.blog-comments-area .blog-comment-respond .comment-form-cookies-consent {
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-comments-area .blog-comment-respond .comment-form-cookies-consent input {
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+
+.blog-comments-area .blog-comment-respond .comment-form-cookies-consent label {
+    display: inline-block;
+    margin: 0;
+    font-weight: normal;
+    color: #221638;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.form-button{
+    border: none;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    color: #ffffff;
+    transition: 0.5s;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: var(--mainColor);
+}
+
+.form-button:hover{
+    background-color: #606060;
+    
+}
+@media (min-width:768px) and (max-width:991px) {
+    .gallery-width{
+        width: 33% !important;
+    }
+    
+}
+
+@media (max-width:767px) {
+    /* .gallery-item img{
+        height: 74px;
+        width: 74px;
+    } */
+
+    .gallery-width{
+        width: 33% !important;
+    }
+    
+    .blog-details .blog-details-content {
+        padding: 15px;
+    }
+
+    #comments {
+        padding: 20px;
+    }
+    .post-sidebar {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+   
+}

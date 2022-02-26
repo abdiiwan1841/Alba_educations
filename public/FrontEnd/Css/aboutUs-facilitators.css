@@ -1,0 +1,197 @@
+.facilitators-about-us {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-bottom: 0px;
+  padding: 050px 0px 0px 0px;
+  overflow: visible;
+}
+
+.facilitatiors-about-us-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.about-us-area {
+  position: relative;
+  z-index: 1;
+}
+.about-us-heading-widget h1 {
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  font-size: 2.5rem;
+}
+
+.about-us-image {
+  position: relative;
+  z-index: 1;
+  margin-right: 15px;
+}
+
+.about-us-main-image {
+  position: relative;
+}
+
+.about-us-main-image img{
+    width:100%;
+}
+
+.headingFont_size{
+    font-size:46px;
+}
+
+.about-us-content {
+  padding-left: 15px;
+}
+
+.about-us-content p{
+    font-size:23px;
+}
+
+
+.about-us-image .shape {
+  position: absolute;
+  right: -15px;
+  top: 0;
+  z-index: -1;
+}
+
+.about-us-shape8 {
+  position: absolute;
+  left: 2%;
+  bottom: 7%;
+  z-index: -1;
+}
+
+.about-us-image .shape img, .about-us-shape8 img{
+  animation: movebounce 5s linear infinite;
+}
+
+/* .........................................................second section - testimonial section........................................................................ */
+
+.about-us-testimonial-box {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container_padding{
+    padding: 0 5%;
+}
+.before {
+  background-image: url(../Image/right-quote.png);
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  bottom: 120px;
+  background-size: contain;
+  opacity: 0.1;
+  width: 148px;
+  height: 148px;
+}
+
+.about-us-testimonial-box .client-img {
+  width: 150px !important;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+
+.about-us-testimonial-box p {
+  margin-bottom: 0;
+  color: #221638;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.about-us-testimonial-box h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--mainColor);
+}
+
+.about-us-testimonial-box span {
+  display: block;
+  color: #606060;
+  font-size: 15px;
+  margin-top: 4px;
+}
+
+.about-us-shape3 {
+  position: absolute;
+  right: 20%;
+  bottom: 12%;
+  z-index: -1;
+}
+.about-us-shape4 {
+  position: absolute;
+  right: 16%;
+  bottom: 50%;
+  z-index: -1;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-us-image .about-us-main-image {
+    padding-bottom: 115px;
+    padding-right: 100px;
+  }
+  .about-us-content {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .about-us-content .sub-title {
+    font-size: 13.5px;
+  }
+  .about-us-testimonial-box {
+    padding-right: 50px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+
+  .shape,.shape8, .about-us-shape3 , .about-us-shape4, .about-us-shape8, .shape7{
+    display: none;
+  }
+
+  .about-us-image .about-us-main-image img {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  .about-us-content {
+    padding-left: 0;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .about-us-content h2 {
+    font-size: 30px;
+  }
+  .about-us-content p{
+    font-size:20px;
+}
+  .about-us-heading-widget h1 {
+      padding: 0px 6px;
+    font-size: 1.8rem;
+}
+  .about-us-content .sub-title {
+    font-size: 12.5px;
+  }
+  .about-us-image {
+    margin-right: 0px;
+}
+  p{
+    font-size: 14px; 
+  }
+  .about-us-testimonial-box p {
+    font-size: 20px; 
+    line-height: 1.6;
+}
+.workshop-area {
+  padding: 0px 0px 0px 0px;
+}
+
+}

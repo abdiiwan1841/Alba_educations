@@ -1,0 +1,36 @@
+.cart-area {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    overflow: hidden;
+}
+
+.cart-message{
+    padding: 1em 2em 1em 3.5em !important;
+    margin: 0 0 2em;
+    position: relative;
+    background-color: #f7f6f7;
+    color: #515151;
+    border-top: 3px solid var(--mainColor) ;
+    list-style: none outside;
+    width: auto;
+    word-wrap: break-word;
+}
+
+.cart-message i{
+    color: var(--mainColor);
+    margin-right: 3px;
+}
+
+.cart-notice p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.cart-area .cart-notice .button{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding: 12px 20px;
+    text-decoration: none;
+}

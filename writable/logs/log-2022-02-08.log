@@ -1,0 +1,103 @@
+CRITICAL - 2022-02-08 10:51:58 --> Invalid file: FrontEnd/teacher_login.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FrontEnd/teache...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('FrontEnd/teache...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(93): view('FrontEnd/teache...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestTest()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-02-08 10:53:03 --> Table 'alba_educations.study_materials' doesn't exist
+ERROR - 2022-02-08 10:53:03 --> Table 'alba_educations.study_materials' doesn't exist
+CRITICAL - 2022-02-08 10:53:03 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(162): App\Models\Admin\functions_Model->get_selected_data('study_materials', '*', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestStudyMaterial()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-08 10:54:36 --> Table 'alba_educations.teacher_feedback' doesn't exist
+ERROR - 2022-02-08 10:54:36 --> Table 'alba_educations.teacher_feedback' doesn't exist
+CRITICAL - 2022-02-08 10:54:36 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(190): App\Models\Admin\functions_Model->get_selected_data('teacher_feedbac...', '*', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestTeacherFeedback()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 10:55:42 --> Invalid file: Admin/adminTeacherBilling.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/adminTeac...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('Admin/adminTeac...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Billing.php(25): view('Admin/adminTeac...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Billing->adminTeacherBilling()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Billing))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-02-08 11:03:20 --> Table 'alba_educations.teacher_feedback' doesn't exist
+ERROR - 2022-02-08 11:03:20 --> Table 'alba_educations.teacher_feedback' doesn't exist
+CRITICAL - 2022-02-08 11:03:20 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(190): App\Models\Admin\functions_Model->get_selected_data('teacher_feedbac...', '*', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestTeacherFeedback()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-08 12:03:33 --> Table 'alba_educations.study_materials' doesn't exist
+ERROR - 2022-02-08 12:03:33 --> Table 'alba_educations.study_materials' doesn't exist
+CRITICAL - 2022-02-08 12:03:33 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(162): App\Models\Admin\functions_Model->get_selected_data('study_materials', '*', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestStudyMaterial()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 12:20:41 --> include(public/FrontEnd/inc/header.php): failed to open stream: No such file or directory
+#0 /home/hs0nusiagw9s/public_html/app/Views/FrontEnd/StudyMaterial_courses.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(public/...', '/home/hs0nusiag...', 31, Array)
+#1 /home/hs0nusiagw9s/public_html/app/Views/FrontEnd/StudyMaterial_courses.php(31): include()
+#2 /home/hs0nusiagw9s/public_html/system/View/View.php(230): include('/home/hs0nusiag...')
+#3 /home/hs0nusiagw9s/public_html/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('FrontEnd/StudyM...', Array, true)
+#5 /home/hs0nusiagw9s/public_html/app/Controllers/FrontEnd/StudyMaterial_courses.php(9): view('FrontEnd/StudyM...')
+#6 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\StudyMaterial_courses->index()
+#7 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\StudyMaterial_courses))
+#8 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-08 12:48:10 --> Invalid file: Admin/adminTeacherBilling.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/adminTeac...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('Admin/adminTeac...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Billing.php(25): view('Admin/adminTeac...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Billing->adminTeacherBilling()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Billing))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-02-08 12:48:33 --> Table 'alba_educations.teacher_feedback' doesn't exist
+ERROR - 2022-02-08 12:48:44 --> Table 'alba_educations.study_materials' doesn't exist
+ERROR - 2022-02-08 12:51:37 --> Table 'alba_educations.study_materials' doesn't exist
+ERROR - 2022-02-08 12:52:21 --> Table 'alba_educations.teacher_feedback' doesn't exist
+ERROR - 2022-02-08 13:09:06 --> Table 'alba_educations.study_materials' doesn't exist
+ERROR - 2022-02-08 13:09:06 --> Table 'alba_educations.study_materials' doesn't exist
+ERROR - 2022-02-08 13:09:49 --> Table 'alba_educations.study_materials' doesn't exist
+ERROR - 2022-02-08 13:09:49 --> Table 'alba_educations.study_materials' doesn't exist
+ERROR - 2022-02-08 13:10:17 --> Table 'alba_educations.study_materials' doesn't exist
+CRITICAL - 2022-02-08 13:57:28 --> Invalid file: Admin/adminTeacherBilling.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/adminTeac...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('Admin/adminTeac...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Billing.php(25): view('Admin/adminTeac...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Billing->adminTeacherBilling()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Billing))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-02-08 15:20:30 --> Table 'alba_educations.study_materials' doesn't exist
+ERROR - 2022-02-08 15:21:10 --> Table 'alba_educations.teacher_feedback' doesn't exist
+ERROR - 2022-02-08 15:43:21 --> Table 'alba_educations.study_materials' doesn't exist
+ERROR - 2022-02-08 15:43:21 --> Table 'alba_educations.study_materials' doesn't exist
+ERROR - 2022-02-08 18:55:14 --> Table 'alba_educations.study_materials' doesn't exist
+ERROR - 2022-02-08 18:55:20 --> Table 'alba_educations.study_materials' doesn't exist
+ERROR - 2022-02-08 19:03:45 --> Table 'alba_educations.study_materials' doesn't exist
+ERROR - 2022-02-08 19:03:45 --> Table 'alba_educations.study_materials' doesn't exist
+ERROR - 2022-02-08 19:04:57 --> Table 'alba_educations.study_materials' doesn't exist
+ERROR - 2022-02-08 19:04:57 --> Table 'alba_educations.study_materials' doesn't exist

@@ -1,0 +1,40 @@
+CRITICAL - 2022-02-06 10:03:04 --> The original file is not a valid file.
+#0 /home/hs0nusiagw9s/public_html/system/HTTP/Files/UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Teachers.php(96): CodeIgniter\HTTP\Files\UploadedFile->move('public/Admin/up...', '')
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Teachers->adminAddTeacher()
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Teachers))
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-06 10:20:40 --> The original file is not a valid file.
+#0 /home/hs0nusiagw9s/public_html/system/HTTP/Files/UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Students.php(186): CodeIgniter\HTTP\Files\UploadedFile->move('public/Admin/up...', '')
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Students->adminAddStudent()
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-06 10:44:42 --> The original file is not a valid file.
+#0 /home/hs0nusiagw9s/public_html/system/HTTP/Files/UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Students.php(186): CodeIgniter\HTTP\Files\UploadedFile->move('public/Admin/up...', '')
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Students->adminAddStudent()
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-06 11:10:23 --> The original file is not a valid file.
+#0 /home/hs0nusiagw9s/public_html/system/HTTP/Files/UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Students.php(186): CodeIgniter\HTTP\Files\UploadedFile->move('public/Admin/up...', '')
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Students->adminAddStudent()
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-06 11:52:52 --> The original file is not a valid file.
+#0 /home/hs0nusiagw9s/public_html/system/HTTP/Files/UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Teachers.php(96): CodeIgniter\HTTP\Files\UploadedFile->move('public/Admin/up...', '')
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Teachers->adminAddTeacher()
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Teachers))
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

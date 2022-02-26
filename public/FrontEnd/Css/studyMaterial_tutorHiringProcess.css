@@ -1,0 +1,188 @@
+.hiring-shape4{
+    position: absolute;
+    z-index: -1;
+    top: -25px;
+    right: 150px;
+
+}
+.hiring-shape5{
+    position: absolute;
+    z-index: -1;
+    right: 24.5%;
+    bottom: 10.5%;
+}
+.hiring-shape6{
+    position: absolute;
+    z-index: -1;
+    left: 12%;
+    bottom: 8%;
+}
+.hiring-shape7{
+    position: absolute;
+    z-index: -1;
+    top: 2%;
+    left: -9%;
+}
+.hiring-shape4 img{
+    animation: moveleftbounce 4s linear infinite;
+}
+.hiring-shape5 img{
+    animation: movescale 2s linear infinite;
+}
+.hiring-shape6 img{
+    animation: movebounce 4s linear infinite;
+}
+.hiring-shape7 img{
+    animation: moveleftbounce 4s linear infinite;
+}
+img.workbook-banner-container{
+    width: 55%;
+
+}
+.hiring-information-content .sub-title {
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--mainColor);
+}
+
+.hiring-information-content h2 {
+    margin-bottom: 45px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.hiring-information-content .apply-details {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.hiring-information-content .apply-details li {
+    position: relative;
+    margin-top: 30px;
+    padding-left: 108px;
+}
+
+.hiring-information-content .apply-details li .hiring-information-icon {
+    width: 85px;
+    height: 85px;
+    line-height: 84px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background-color: var(--mainColor);
+}
+
+
+.hiring-information-content .apply-details li h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+p {
+    color: #606060;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+
+.hiring-information-image img{
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+
+.tutor-form{
+    padding: 20px 20px 30px 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 4px 2px #686162;
+    margin: 20px 0;
+    width: 100%;
+    color: #ffffff;
+}
+
+.hiring-shape1{
+    position: absolute;
+    z-index: -1;
+    right: 30%;
+    bottom: 3%;
+    
+}
+.hiring-shape2{
+    position: absolute;
+    z-index: -1;
+    right: 16%;
+    bottom: 36%;
+
+}
+.hiring-shape3{
+    position: absolute;
+    z-index: -1;
+    left: 20%;
+    top: 25%;
+
+}
+.hiring-shape1 img{
+    animation: rotateme 100s linear infinite;
+     
+}
+.hiring-shape2 img{
+    animation: movescale 4s linear infinite;
+   
+}
+.hiring-shape3 img{
+    animation: movebounce 5s linear infinite;
+    
+}
+
+
+@media (max-width:767px) {
+    .hiring-shape4, .hiring-shape5, .hiring-shape6, .hiring-shape7, .hiring-shape3, .hiring-shape2, .hiring-shape1{
+        display: none;
+    }
+
+    .workbook-banner-image{
+        text-align: center;
+    }
+    .hiring-information-content {
+        text-align: center;
+    }
+    .hiring-information-content h2 {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    .hiring-information-content .apply-details li .hiring-information-icon {
+        width: 60px;
+    height: 60px;
+    line-height: 60px;
+    top: 2px;
+    transform: translateY(0);
+    font-size: 25px;
+    }
+
+    .hiring-information-content .apply-details li {
+        padding-left: 80px;
+    }
+    .hiring-information-content .apply-details {
+        text-align: left;
+    }
+    .hiring-information-content .apply-details li h3 {
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+}

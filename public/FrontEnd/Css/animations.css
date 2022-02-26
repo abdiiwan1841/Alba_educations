@@ -1,0 +1,61 @@
+@keyframes movebounce {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+@keyframes moveleftbounce {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+@keyframes rotateme {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes movescale {
+    0% {
+        transform: scale(.9);
+    }
+    50% {
+        transform: scale(.8);
+    }
+    100% {
+        transform: scale(.9);
+    }
+}
+@keyframes run {
+    0% {
+        top: -50%;
+    }
+    100% {
+        top: 110%;
+    }
+}
+
+@keyframes animeCircleSpin {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(720deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}

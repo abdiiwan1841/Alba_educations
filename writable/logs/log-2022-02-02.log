@@ -1,0 +1,9 @@
+CRITICAL - 2022-02-02 23:57:54 --> Invalid file: frontEnd/StudyMaterial_tutorHiringProcess.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontEnd/StudyM...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('frontEnd/StudyM...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Teachers.php(158): view('frontEnd/StudyM...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Teachers->submittResumes()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Teachers))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

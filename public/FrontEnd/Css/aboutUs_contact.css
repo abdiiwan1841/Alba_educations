@@ -1,0 +1,257 @@
+.about-us-contact-info{
+    padding-right: 15px;
+}
+
+
+.about-us-contact-info .sub-title {
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--mainColor);
+}
+
+.about-us-contact-info h2 {
+    margin-bottom: 12px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+p {
+    color: #606060;
+    margin-bottom: 15px;
+    line-height: 1.7;
+    font-size: 16px;
+    margin-top: 0;
+
+}
+
+.about-us-contact-info ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.about-us-contact-info ul li {
+    position: relative;
+    margin-bottom: 35px;
+    list-style-type: none;
+    padding-left: 100px;
+}
+.about-us-contact-info ul li p a{
+    color: var(--mainColor);
+}
+
+.about-us-contact-info ul li .about-us-icon {
+    width: 75px;
+    height: 85px;
+    background-color: #f8f9f8;
+    border-radius: 3px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    font-size: 40px;
+    transition: 0.5s;
+    top: 0;
+    color: var(--mainColor);
+}
+
+.about-us-contact-info ul li .about-us-icon:hover{
+    background-color: var(--mainColor);
+    color: #ffffff;
+}
+
+.about-us-contact-info ul li .about-us-icon i {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.about-us-contact-info ul li h3 {
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.about-us-contact-info ul li p {
+    font-weight: 500;
+    max-width: 300px;
+    margin-bottom: 0;
+    margin-top: 2px;
+    color: #606060;
+    line-height: 1.7;
+    font-size: 16px;
+}
+.about-us-contact-info ul li p a:hover .about-us-contact-info ul li .about-us-icon i {
+    color: var(--mainColor);
+}
+
+
+
+.about-us-contact-form {
+    overflow: hidden;
+    padding: 35px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: var(--mainColor);
+}
+
+
+.about-us-contact-form h2 {
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 33px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.about-us-contact-form p {
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.about-us-contact-form form{
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.about-us-contact-form form input,.about-us-contact-form form textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    color: #ffffff !important;
+    background-color: #c22b34 !important;
+    height: 50px;
+    padding-left: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about-us-contact-form form textarea {
+    height: auto !important;
+    padding-top: 15px;
+}
+::placeholder{
+    color: #ffffff;
+}
+
+:focus{
+    outline: 0 ;
+}
+
+.about-us-contact-form .wpcf7-form-control-wrap .wpcf7-list-item {
+    margin: 0 0 0 0;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.about-us-contact-form .list-item{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.about-us-contact-form  .list-item input.list-item-input {
+    display: inline-block;
+    background-color: transparent;
+    padding-left: 0;
+    border-radius: 0;
+    position: relative;
+    top: 2px;
+    margin-bottom: 0;
+    font-weight: normal;
+    width: auto;
+    height: auto !important;
+}
+
+.about-us-contact-form  .list-item-label {
+    color: #ffffff;
+}
+
+.about-us-contact-form .list-item-label a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+
+.about-us-contact-form form .button {
+    background-color: #221638;
+    margin-top: 5px;
+    padding: 12px 30px;
+}
+
+.google-map iframe{
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: -8px;
+    line-height: 1;
+    border: none;
+    height: 505px;
+    filter: brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate(317deg );
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px){
+    .about-us-contact-info {
+        text-align: center;
+    }
+    .about-us-contact-info ul li {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .about-us-contact-info ul li .about-us-icon {
+        width: 60px;
+        height: 60px;
+        left: 0;
+        position: relative;
+        font-size: 30px;
+        top: 0;
+        margin-left: auto;
+        margin-bottom: 17px;
+        margin-right: auto;
+    }
+    .about-us-contact-info ul li h3 {
+        font-size: 18px;
+    }
+    .about-us-contact-info ul li p {
+        max-width: 100%;
+    }
+    .about-us-contact-form {
+        text-align: center;
+        padding: 25px 15px;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .about-us-contact-form h2 {
+    font-size: 30px;
+}
+
+}

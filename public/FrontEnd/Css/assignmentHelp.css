@@ -1,0 +1,23 @@
+ ul li{
+    list-style: none;
+
+}
+ul.radio-label  li label, .input-label{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 23px;
+
+}
+
+@media (max-width:767px) {
+    ul.radio-label li label, .input-label {
+    font-size: 18px;
+}
+    .input-input{
+        font-size: 13px;
+    }
+    .mar-left-right-70{
+        margin: 0 0;
+    }
+    
+}

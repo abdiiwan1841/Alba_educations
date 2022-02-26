@@ -1,0 +1,61 @@
+CRITICAL - 2021-12-22 11:10:05 --> Undefined variable $check_date_today
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Teacher\Sessions.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 109)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Teacher\Sessions->student_attendance()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Sessions))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-22 18:08:37 --> Unknown column 'student' in 'where clause'
+CRITICAL - 2021-12-22 18:08:37 --> Unknown column 'student' in 'where clause'
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Admin\functions_Model.php(10): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(43): App\Models\Admin\functions_Model->get_table_data('users_students', Array)
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->students_students()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-22 18:09:03 --> Unknown column 'student' in 'where clause'
+CRITICAL - 2021-12-22 18:09:03 --> Unknown column 'student' in 'where clause'
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Admin\functions_Model.php(10): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(43): App\Models\Admin\functions_Model->get_table_data('users_students', Array)
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->students_students()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-22 18:11:10 --> Undefined property: stdClass::$subject_id
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->students_subjects()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-22 22:55:41 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->students_subjects()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-22 23:48:26 --> Undefined property: stdClass::$user_student_id
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->subjects_teachers()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-22 23:48:57 --> Undefined property: stdClass::$user_student_id
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->subjects_teachers()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

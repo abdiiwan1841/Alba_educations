@@ -1,0 +1,280 @@
+CRITICAL - 2021-12-20 00:32:50 --> Undefined property: stdClass::$for_date
+#0 C:\xampp\htdocs\alba_educations\app\Views\Admin\HomeworkRequests.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 188)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/HomeworkR...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Requests.php(33): view('Admin/HomeworkR...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Requests->homeworkRequests_page()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 00:33:36 --> Undefined property: stdClass::$timing
+#0 C:\xampp\htdocs\alba_educations\app\Views\Admin\HomeworkRequests.php(217): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 217)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/HomeworkR...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Requests.php(33): view('Admin/HomeworkR...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Requests->homeworkRequests_page()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-20 00:43:24 --> Unknown column 'user_teahcer_id' in 'field list'
+CRITICAL - 2021-12-20 00:43:24 --> Unknown column 'user_teahcer_id' in 'field list'
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `name`, ...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`, ...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`, ...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `name`, ...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Admin\functions_Model.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Requests.php(31): App\Models\Admin\functions_Model->get_selected_data('users_teachers', Array, Array)
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Requests->homeworkRequests_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-20 00:46:30 --> Undefined property: stdClass::$user_student_id
+#0 C:\xampp\htdocs\alba_educations\app\Views\Admin\HomeworkRequests.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 195)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/HomeworkR...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Requests.php(45): view('Admin/HomeworkR...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Requests->homeworkRequests_page()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 00:49:02 --> Undefined property: stdClass::$user_teacher_id
+#0 C:\xampp\htdocs\alba_educations\app\Views\Admin\HomeworkRequests.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 234)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/HomeworkR...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Requests.php(50): view('Admin/HomeworkR...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Requests->homeworkRequests_page()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 00:49:31 --> Undefined property: stdClass::$name
+#0 C:\xampp\htdocs\alba_educations\app\Views\Admin\HomeworkRequests.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 236)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/HomeworkR...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Requests.php(50): view('Admin/HomeworkR...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Requests->homeworkRequests_page()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 01:02:03 --> Unsupported operand types: string / string
+#0 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/HomeworkR...', Array, true)
+#3 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Requests.php(50): view('Admin/HomeworkR...', Array)
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Requests->homeworkRequests_page()
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-20 01:11:27 --> Undefined variable $homework
+#0 C:\xampp\htdocs\alba_educations\app\Views\Admin\HomeworkRequests.php(287): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 287)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/HomeworkR...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Homework.php(14): view('Admin/HomeworkR...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Homework->approve_homework()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Homework))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 01:18:37 --> Undefined property: App\Controllers\Admin\Homework::$uri
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Homework.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Homework->approve_homework()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Homework))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 01:21:21 --> Undefined property: App\Controllers\Admin\Homework::$uri
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Homework.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Homework->approve_homework()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Homework))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 01:22:50 --> Undefined property: App\Controllers\Admin\Homework::$http://
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Homework.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Homework->approve_homework()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Homework))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 01:23:04 --> Undefined property: App\Controllers\Admin\Homework::$http://localhost/alba_educations/alba_educations
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Homework.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Homework->approve_homework()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Homework))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 01:23:58 --> Undefined property: App\Controllers\Admin\Homework::$http://
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Homework.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Homework->approve_homework()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Homework))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 03:28:28 --> Call to private App\Controllers\Admin\Homework::__construct() from scope CodeIgniter\CodeIgniter
+#0 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-20 03:29:21 --> Too few arguments to function App\Controllers\Admin\Homework::__construct(), 0 passed in C:\xampp\htdocs\alba_educations\system\CodeIgniter.php on line 900 and exactly 1 expected
+#0 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(900): App\Controllers\Admin\Homework->__construct()
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-20 03:29:41 --> Too few arguments to function App\Controllers\Admin\Homework::__construct(), 0 passed in C:\xampp\htdocs\alba_educations\system\CodeIgniter.php on line 900 and exactly 1 expected
+#0 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(900): App\Controllers\Admin\Homework->__construct()
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-20 04:04:23 --> Table 'alba_educations.homeworks' doesn't exist
+CRITICAL - 2021-12-20 04:04:23 --> Table 'alba_educations.homeworks' doesn't exist
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\stdFunctions_Model.php(10): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Homework.php(22): App\Models\Student\stdFunctions_Model->get_my_data('homeworks', Array)
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Homework->homework_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Homework))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-20 04:05:32 --> Table 'alba_educations.homeworks' doesn't exist
+CRITICAL - 2021-12-20 04:05:32 --> Table 'alba_educations.homeworks' doesn't exist
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\stdFunctions_Model.php(10): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Homework.php(22): App\Models\Student\stdFunctions_Model->get_my_data('homeworks', Array)
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Homework->homework_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Homework))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-20 04:06:44 --> Table 'alba_educations.homeworks' doesn't exist
+CRITICAL - 2021-12-20 04:06:44 --> Table 'alba_educations.homeworks' doesn't exist
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\stdFunctions_Model.php(10): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Homework.php(22): App\Models\Student\stdFunctions_Model->get_my_data('homeworks', Array)
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Homework->homework_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Homework))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-20 04:13:05 --> Undefined property: stdClass::$name
+#0 C:\xampp\htdocs\alba_educations\app\Views\Student\Homework.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/Homewor...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Homework.php(24): view('Student/Homewor...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Homework->homework_page()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Homework))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 04:14:07 --> Undefined property: stdClass::$gender
+#0 C:\xampp\htdocs\alba_educations\app\Views\Student\Homework.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/Homewor...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Homework.php(24): view('Student/Homewor...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Homework->homework_page()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Homework))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 04:14:33 --> Undefined property: stdClass::$dob
+#0 C:\xampp\htdocs\alba_educations\app\Views\Student\Homework.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 74)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/Homewor...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Homework.php(24): view('Student/Homewor...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Homework->homework_page()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Homework))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 04:15:41 --> Undefined property: stdClass::$phone
+#0 C:\xampp\htdocs\alba_educations\app\Views\Student\Homework.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/Homewor...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Homework.php(24): view('Student/Homewor...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Homework->homework_page()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Homework))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 04:17:53 --> Undefined property: stdClass::$email_main
+#0 C:\xampp\htdocs\alba_educations\app\Views\Student\Homework.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 86)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/Homewor...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Homework.php(24): view('Student/Homewor...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Homework->homework_page()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Homework))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 04:51:10 --> Call to undefined function App\Controllers\Student\now()
+#0 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Homework->submit_homework()
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Homework))
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-20 04:52:33 --> time() expects exactly 0 arguments, 1 given
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Homework.php(45): time('20-12-21')
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Homework->submit_homework()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Homework))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-20 05:30:31 --> Table 'alba_educations.submitted_homeworks' doesn't exist
+CRITICAL - 2021-12-20 05:30:31 --> Table 'alba_educations.submitted_homeworks' doesn't exist
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Admin\functions_Model.php(10): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Requests.php(25): App\Models\Admin\functions_Model->get_table_data('submitted_homew...', Array)
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Requests->homeworkRequests_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-20 05:30:37 --> Table 'alba_educations.submitted_homeworks' doesn't exist
+CRITICAL - 2021-12-20 05:30:37 --> Table 'alba_educations.submitted_homeworks' doesn't exist
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Admin\functions_Model.php(10): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Requests.php(25): App\Models\Admin\functions_Model->get_table_data('submitted_homew...', Array)
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Requests->homeworkRequests_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-20 23:00:43 --> Call to undefined function App\Controllers\Student\NOW()
+#0 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\LiveClasses->LiveClasses_page()
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\LiveClasses))
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

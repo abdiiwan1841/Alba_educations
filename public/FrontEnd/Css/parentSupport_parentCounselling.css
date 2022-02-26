@@ -1,0 +1,85 @@
+.parent-form-area{
+
+    margin: 0px 70px 0px 70px;
+    padding: 60px 60px 60px 60px;
+}
+
+.parent-formField{
+    margin-bottom: 30px;
+}
+.parent-formField input::placeholder{
+    color: #918c8c;
+}
+
+
+.forms-oneHalf{
+    width: 30.6666666%;
+    clear: both !important;
+    margin-left: 0;
+    float: left;
+}
+
+.forms-oneHalf:nth-child(2), .forms-oneHalf:nth-child(3){
+    margin-left: 4%;
+
+}
+
+.parent-formField h3{
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: 400;
+    text-align: left;
+}
+
+.parent-formButton{
+    min-width: 100px;
+    max-width: unset;
+    height: auto;
+    min-height: unset;
+    max-height: unset;
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+    border: 0;
+    border-radius: 3px;
+    background-image: unset;
+    line-height: 1.45em;
+    text-align: center;
+    transition: .2s ease;
+    outline: 0;
+    box-shadow: none;
+    text-decoration: none;
+    display: block;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.parent-formButton:hover{
+    background-color: #756b6b;
+    color: #FFFFFF;
+   
+}
+
+
+
+.parent-form{
+    padding: 20px 20px 30px 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 4px 2px #686162;
+    width: 50%;
+    margin: 20px 0;
+}
+
+@media (max-width:767px) {
+    .parent-form{
+    width: 100%;
+}
+    .parent-form-area {
+        margin: 0;
+        padding: 35px 10px 35px 10px;
+    }
+    .about-image{
+        margin-right: 0;
+    }
+
+}

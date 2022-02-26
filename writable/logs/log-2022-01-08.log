@@ -1,0 +1,177 @@
+CRITICAL - 2022-01-08 16:25:39 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$insertID
+#0 C:\xampp\htdocs\alba_educations\app\Models\Admin\Subject_Model.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Subjects.php(28): App\Models\Admin\Subject_Model->add_subject('Hindi')
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Subjects->add_new_subject()
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Subjects))
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-08 16:30:15 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->students_subjects()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 17:09:19 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->students_subjects()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 17:15:17 --> Attempt to read property "subject_id" on array
+#0 C:\xampp\htdocs\alba_educations\app\Models\Admin\Subject_Model.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Subjects.php(28): App\Models\Admin\Subject_Model->add_subject('Hindi')
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Subjects->add_new_subject()
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Subjects))
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-01-08 17:30:36 --> Unknown column 'status' in 'field list'
+CRITICAL - 2022-01-08 17:30:36 --> Unknown column 'status' in 'field list'
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `gr...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `gr...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `gr...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `gr...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Admin\Subject_Model.php(30): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Subjects.php(31): App\Models\Admin\Subject_Model->add_subject_grade('1', '1')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Subjects->add_new_subject()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Subjects))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-08 17:35:35 --> Unknown column 'grades_subjects' in 'where clause'
+CRITICAL - 2022-01-08 17:35:35 --> Unknown column 'grades_subjects' in 'where clause'
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Admin\functions_Model.php(10): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(43): App\Models\Admin\functions_Model->get_table_data('users_students', Array)
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->getSubjectsGrade()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-08 17:36:40 --> Unknown column 'grades_id' in 'where clause'
+CRITICAL - 2022-01-08 17:36:40 --> Unknown column 'grades_id' in 'where clause'
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Admin\functions_Model.php(10): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(43): App\Models\Admin\functions_Model->get_table_data('grades_subjects', Array)
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->getSubjectsGrade()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-08 17:36:55 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->getSubjectsGrade()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 17:37:37 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->getSubjectsGrade()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 17:43:27 --> Undefined property: stdClass::$grade
+#0 C:\xampp\htdocs\alba_educations\app\Views\Admin\Add_subject.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/Add_subje...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Subjects.php(18): view('Admin/Add_subje...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Subjects->index()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Subjects))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 18:13:25 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->getSubjectsGrade()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 18:18:51 --> Undefined property: stdClass::$subject
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->getSubjectsGrade()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 18:23:02 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->getSubjectsGrade()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 18:38:02 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->getSubjectsGrade()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 18:38:32 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->getSubjectsGrade()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 18:40:03 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(45): count('0')
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->getSubjectsGrade()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 18:41:40 --> Undefined variable $data
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->getSubjectsGrade()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 18:50:14 --> Array to string conversion
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->getSubjectsGrade()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 18:51:23 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->getSubjectsGrade()
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-08 18:51:53 --> Only the first byte will be assigned to the string offset
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Only the first ...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->getSubjectsGrade()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 18:53:58 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->getSubjectsGrade()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-08 18:54:41 --> Only the first byte will be assigned to the string offset
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Only the first ...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->getSubjectsGrade()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

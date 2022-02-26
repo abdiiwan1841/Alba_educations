@@ -1,0 +1,11 @@
+ERROR - 2022-02-22 14:12:53 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-22 14:13:25 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-02-22 16:20:35 --> Table 'alba_educations.teacher_feedback' doesn't exist
+ERROR - 2022-02-22 16:21:18 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Network is unreachable)
+ERROR - 2022-02-22 16:24:28 --> Table 'alba_educations.teacher_feedback' doesn't exist
+ERROR - 2022-02-22 16:24:28 --> Table 'alba_educations.teacher_feedback' doesn't exist
+ERROR - 2022-02-22 16:24:44 --> Table 'alba_educations.teacher_feedback' doesn't exist
+ERROR - 2022-02-22 16:24:50 --> Table 'alba_educations.teacher_feedback' doesn't exist
+ERROR - 2022-02-22 16:24:50 --> Table 'alba_educations.teacher_feedback' doesn't exist
+ERROR - 2022-02-22 16:25:07 --> Table 'alba_educations.teacher_feedback' doesn't exist
+ERROR - 2022-02-22 16:25:07 --> Table 'alba_educations.teacher_feedback' doesn't exist

@@ -1,0 +1,185 @@
+ERROR - 2021-12-21 00:29:48 --> Column 'status' in where clause is ambiguous
+CRITICAL - 2021-12-21 00:29:48 --> Column 'status' in where clause is ambiguous
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Sessions_Model.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Sessions.php(28): App\Models\Student\Sessions_Model->get_sessions_history('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Sessions->sessionHistory_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Sessions))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-21 00:35:51 --> Column 'status' in where clause is ambiguous
+CRITICAL - 2021-12-21 00:35:51 --> Column 'status' in where clause is ambiguous
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Sessions_Model.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Sessions.php(28): App\Models\Student\Sessions_Model->get_sessions_history('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Sessions->sessionHistory_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Sessions))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-21 00:40:05 --> Undefined variable $result
+#0 C:\xampp\htdocs\alba_educations\app\Views\Student\SessionHistory.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/Session...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Sessions.php(30): view('Student/Session...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Sessions->sessionHistory_page()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Sessions))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 00:55:10 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\alba_educations\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\alba_educations\system\Model.php(798): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Attendence.php(25): CodeIgniter\Model->__call('get_sessions_at...', Array)
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Attendence->attendence_page()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Attendence))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-12-21 01:03:20 --> Unknown column 'DESC' in 'order clause'
+CRITICAL - 2021-12-21 01:03:20 --> Unknown column 'DESC' in 'order clause'
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Sessions_Model.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Attendence.php(25): App\Models\Student\Sessions_Model->get_sessions_attendance('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Attendence->attendence_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Attendence))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-21 01:03:21 --> Unknown column 'DESC' in 'order clause'
+CRITICAL - 2021-12-21 01:03:21 --> Unknown column 'DESC' in 'order clause'
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Sessions_Model.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Attendence.php(25): App\Models\Student\Sessions_Model->get_sessions_attendance('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Attendence->attendence_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Attendence))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-21 01:03:26 --> Unknown column 'DSC' in 'order clause'
+CRITICAL - 2021-12-21 01:03:26 --> Unknown column 'DSC' in 'order clause'
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Sessions_Model.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Attendence.php(25): App\Models\Student\Sessions_Model->get_sessions_attendance('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Attendence->attendence_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Attendence))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-21 01:03:39 --> Unknown column 'Desc' in 'order clause'
+CRITICAL - 2021-12-21 01:03:39 --> Unknown column 'Desc' in 'order clause'
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Sessions_Model.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Attendence.php(25): App\Models\Student\Sessions_Model->get_sessions_attendance('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Attendence->attendence_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Attendence))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-21 01:03:43 --> Unknown column 'desc' in 'order clause'
+CRITICAL - 2021-12-21 01:03:43 --> Unknown column 'desc' in 'order clause'
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Sessions_Model.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Attendence.php(25): App\Models\Student\Sessions_Model->get_sessions_attendance('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Attendence->attendence_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Attendence))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-21 01:03:47 --> Unknown column 'dsc' in 'order clause'
+CRITICAL - 2021-12-21 01:03:47 --> Unknown column 'dsc' in 'order clause'
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Sessions_Model.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Attendence.php(25): App\Models\Student\Sessions_Model->get_sessions_attendance('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Attendence->attendence_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Attendence))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-21 01:04:17 --> Unknown column 'DESC' in 'order clause'
+CRITICAL - 2021-12-21 01:04:17 --> Unknown column 'DESC' in 'order clause'
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Sessions_Model.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Attendence.php(25): App\Models\Student\Sessions_Model->get_sessions_attendance('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Attendence->attendence_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Attendence))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-21 01:04:58 --> Unknown column 'DESC' in 'order clause'
+CRITICAL - 2021-12-21 01:04:58 --> Unknown column 'DESC' in 'order clause'
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Sessions_Model.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Attendence.php(25): App\Models\Student\Sessions_Model->get_sessions_attendance('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Attendence->attendence_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Attendence))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-21 01:26:05 --> Undefined variable $sessions_history
+#0 C:\xampp\htdocs\alba_educations\app\Views\Admin\SessionHistory.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 113)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/SessionHi...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Sessions.php(14): view('Admin/SessionHi...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Sessions->SessionHistory_page()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Sessions))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-21 01:30:54 --> Table 'alba_educations.user_teachers' doesn't exist
+CRITICAL - 2021-12-21 01:30:54 --> Table 'alba_educations.user_teachers' doesn't exist
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Admin\functions_Model.php(10): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Sessions.php(20): App\Models\Admin\functions_Model->get_table_data('user_teachers', Array)
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Sessions->SessionHistory_page()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Sessions))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-21 01:32:23 --> Undefined property: stdClass::$users_student_id
+#0 C:\xampp\htdocs\alba_educations\app\Views\Admin\SessionHistory.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/SessionHi...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Sessions.php(31): view('Admin/SessionHi...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Sessions->SessionHistory_page()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Sessions))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,11 @@
+[25-Jan-2022 16:11:48 Asia/Kolkata] PHP Warning:  Uncaught ErrorException: require_once(/home/hs0nusiagw9s/public_html/app/views/php-jwt-master/src/BeforeValidException.php): failed to open stream: No such file or directory in /home/hs0nusiagw9s/public_html/app/Views/apiZoom.php:2
+Stack trace:
+#0 /home/hs0nusiagw9s/public_html/app/Views/apiZoom.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/hs0nusiag...', 2, Array)
+#1 /home/hs0nusiagw9s/public_html/app/Views/apiZoom.php(2): require_once()
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Classes_sessions.php(87): require('/home/hs0nusiag...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Classes_sessions->adminLiveClasses()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Classes_sessions))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/p in /home/hs0nusiagw9s/public_html/app/Views/apiZoom.php on line 2
+[25-Jan-2022 16:11:48 Asia/Kolkata] PHP Fatal error:  App\Controllers\Admin\Classes_sessions::main(): Failed opening required '/home/hs0nusiagw9s/public_html/app/views/php-jwt-master/src/BeforeValidException.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/hs0nusiagw9s/public_html/app/Views/apiZoom.php on line 2
+[17-Feb-2022 00:21:04 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Controllers\Admin\Teachers::teacher_registration() in /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Teachers.php on line 17

@@ -1,0 +1,54 @@
+CRITICAL - 2022-01-26 13:36:30 --> Invalid file: Admin/adminRegularPlan.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/adminRegu...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('Admin/adminRegu...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Plans.php(16): view('Admin/adminRegu...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Plans->adminRegularPlan()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Plans))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-26 13:37:41 --> Invalid file: Admin/adminMonthlyPlan.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/adminMont...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('Admin/adminMont...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Plans.php(32): view('Admin/adminMont...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Plans->adminMonthlyPlan()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Plans))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-26 15:46:03 --> Invalid file: Admin/adminCurriculumTeacher.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/adminCurr...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('Admin/adminCurr...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Curriculum.php(31): view('Admin/adminCurr...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Curriculum->adminCurriculumTeacher()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Curriculum))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-26 15:49:58 --> Invalid file: Admin/adminCurriculumTeacher.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/adminCurr...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('Admin/adminCurr...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Curriculum.php(37): view('Admin/adminCurr...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Curriculum->adminCurriculumTeacher()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Curriculum))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-26 22:32:48 --> Invalid file: admin/adminRequestReportCard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(78): view('admin/adminRequ...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestReportCard()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-26 22:49:14 --> Invalid file: admin/adminRequestReportCard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(95): view('admin/adminRequ...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestReportCard()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

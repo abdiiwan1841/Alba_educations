@@ -1,0 +1,436 @@
+CRITICAL - 2022-01-22 00:39:56 --> Undefined array key "phone"
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\StudyMaterial.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 93)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\StudyMaterial->successRegularPlan()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\StudyMaterial))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-22 00:40:44 --> Undefined array key "phone"
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\StudyMaterial.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\StudyMaterial->successRegularPlan()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\StudyMaterial))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-22 01:16:35 --> Invalid file: subscriptionWorkbooksweekly.php
+#0 C:\xampp\htdocs\alba_educations\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('subscriptionWor...')
+#1 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('subscriptionWor...', Array, true)
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\StudyMaterial.php(171): view('subscriptionWor...', Array)
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\StudyMaterial->weekly_plan_submit()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\StudyMaterial))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-22 02:06:26 --> Invalid file: Admin/adminStudentCertification.php
+#0 C:\xampp\htdocs\alba_educations\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/adminStud...')
+#1 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/adminStud...', Array, true)
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Certification.php(31): view('Admin/adminStud...', Array)
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Certification->adminStudentCertification()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Certification))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-01-22 02:31:54 --> Unknown column 'file_path' in 'field list'
+CRITICAL - 2022-01-22 02:31:54 --> Unknown column 'file_path' in 'field list'
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ce...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ce...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ce...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ce...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Admin\functions_Model.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Certification.php(58): App\Models\Admin\functions_Model->add_new_data_withoutDuplicate('certifications', Array, Array)
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Certification->send_certificate()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Certification))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-22 03:03:11 --> Invalid file: Admin/adminAuditReport.php
+#0 C:\xampp\htdocs\alba_educations\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/adminAudi...')
+#1 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/adminAudi...', Array, true)
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\AuditReport.php(31): view('Admin/adminAudi...', Array)
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\AuditReport->adminAuditReport()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AuditReport))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-22 03:26:04 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\alba_educations\app\Views\Teacher\teacherAuditReport.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Teacher/teacher...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Teacher\Certification.php(32): view('Teacher/teacher...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Teacher\Certification->teacherAuditReport()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Certification))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-22 03:26:40 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\alba_educations\app\Views\Teacher\teacherAuditReport.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Teacher/teacher...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Teacher\Certification.php(32): view('Teacher/teacher...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Teacher\Certification->teacherAuditReport()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Certification))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-22 03:44:17 --> Invalid file: Admin/teacherAuditReport.php
+#0 C:\xampp\htdocs\alba_educations\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/teacherAu...')
+#1 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/teacherAu...', Array, true)
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\Teacher\Certification.php(68): view('Admin/teacherAu...', Array)
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Teacher\Certification->audit_reply()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Certification))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-22 03:44:32 --> Invalid file: Admin/teacherAuditReport.php
+#0 C:\xampp\htdocs\alba_educations\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/teacherAu...')
+#1 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/teacherAu...', Array, true)
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\Teacher\Certification.php(68): view('Admin/teacherAu...', Array)
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Teacher\Certification->audit_reply()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Certification))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-22 03:45:36 --> Invalid file: Admin/teacherAuditReport.php
+#0 C:\xampp\htdocs\alba_educations\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/teacherAu...')
+#1 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/teacherAu...', Array, true)
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\Teacher\Certification.php(68): view('Admin/teacherAu...', Array)
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Teacher\Certification->audit_reply()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Certification))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-22 03:45:41 --> Invalid file: Admin/teacherAuditReport.php
+#0 C:\xampp\htdocs\alba_educations\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/teacherAu...')
+#1 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/teacherAu...', Array, true)
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\Teacher\Certification.php(68): view('Admin/teacherAu...', Array)
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Teacher\Certification->audit_reply()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Certification))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-22 03:46:10 --> Invalid file: Admin/teacherAuditReport.php
+#0 C:\xampp\htdocs\alba_educations\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/teacherAu...')
+#1 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/teacherAu...', Array, true)
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\Teacher\Certification.php(68): view('Admin/teacherAu...', Array)
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Teacher\Certification->audit_reply()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Certification))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-22 13:17:32 --> Undefined property: stdClass::$grade_id
+#0 C:\xampp\htdocs\alba_educations\app\Views\Admin\adminStudentBilling.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 107)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('admin/adminStud...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Billing.php(23): view('admin/adminStud...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Billing->adminStudentBilling()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Billing))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-22 13:20:16 --> Undefined property: stdClass::$subject_id
+#0 C:\xampp\htdocs\alba_educations\app\Views\Admin\adminStudentBilling.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 142)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('admin/adminStud...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Billing.php(30): view('admin/adminStud...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Billing->adminStudentBilling()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Billing))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-22 14:39:19 --> Undefined array key 0
+#0 C:\xampp\htdocs\alba_educations\app\Views\Student\Billing.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/Billing', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Billing.php(129): view('Student/Billing', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Billing->student_billing()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Billing))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-22 14:44:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `users_students`.`feePerSession`
+FROM `remarks_sessions`
+JOIN `class_sessi...' at line 1
+CRITICAL - 2022-01-22 14:44:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `users_students`.`feePerSession`
+FROM `remarks_sessions`
+JOIN `class_sessi...' at line 1
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `remarks...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `remarks...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `remarks...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `remarks...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Billing_Model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Billing.php(127): App\Models\Student\Billing_Model->get_sessions_billing('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Billing->student_billing()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Billing))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-22 14:45:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, *
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`ses...' at line 1
+CRITICAL - 2022-01-22 14:45:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, *
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`ses...' at line 1
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `remarks...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `remarks...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `remarks...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `remarks...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Billing_Model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Billing.php(127): App\Models\Student\Billing_Model->get_sessions_billing('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Billing->student_billing()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Billing))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-22 14:47:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, *
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`ses...' at line 1
+CRITICAL - 2022-01-22 14:47:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, *
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`ses...' at line 1
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `remarks...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `remarks...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `remarks...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `remarks...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Billing_Model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Billing.php(127): App\Models\Student\Billing_Model->get_sessions_billing('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Billing->student_billing()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Billing))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-22 14:48:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `remarks_sessions`
+JOIN `users_students` ON `class_sessions`.`student`...' at line 1
+CRITICAL - 2022-01-22 14:48:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `remarks_sessions`
+JOIN `users_students` ON `class_sessions`.`student`...' at line 1
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `remarks...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `remarks...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `remarks...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `remarks...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Billing_Model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Billing.php(127): App\Models\Student\Billing_Model->get_sessions_billing('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Billing->student_billing()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Billing))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-22 14:48:26 --> Undefined property: stdClass::$subject
+#0 C:\xampp\htdocs\alba_educations\app\Views\Student\Billing.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/Billing', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Billing.php(129): view('Student/Billing', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Billing->student_billing()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Billing))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-22 14:48:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`sessio...' at line 1
+CRITICAL - 2022-01-22 14:48:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`sessio...' at line 1
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `remarks...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `remarks...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `remarks...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `remarks...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Billing_Model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Billing.php(127): App\Models\Student\Billing_Model->get_sessions_billing('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Billing->student_billing()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Billing))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-22 14:49:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, *
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`ses...' at line 1
+CRITICAL - 2022-01-22 14:49:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, *
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`ses...' at line 1
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `remarks...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `remarks...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `remarks...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `remarks...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Billing_Model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Billing.php(127): App\Models\Student\Billing_Model->get_sessions_billing('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Billing->student_billing()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Billing))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-22 14:50:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`sessio...' at line 1
+CRITICAL - 2022-01-22 14:50:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`sessio...' at line 1
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `remarks...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `remarks...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `remarks...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `remarks...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Billing_Model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Billing.php(127): App\Models\Student\Billing_Model->get_sessions_billing('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Billing->student_billing()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Billing))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-22 14:50:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, *
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`ses...' at line 1
+CRITICAL - 2022-01-22 14:50:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, *
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`ses...' at line 1
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `remarks...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `remarks...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `remarks...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `remarks...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Billing_Model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Billing.php(127): App\Models\Student\Billing_Model->get_sessions_billing('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Billing->student_billing()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Billing))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-22 14:51:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`sessio...' at line 1
+CRITICAL - 2022-01-22 14:51:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`sessio...' at line 1
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `remarks...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `remarks...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `remarks...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `remarks...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Billing_Model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Billing.php(127): App\Models\Student\Billing_Model->get_sessions_billing('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Billing->student_billing()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Billing))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-22 14:53:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`sessio...' at line 1
+CRITICAL - 2022-01-22 14:53:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`sessio...' at line 1
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `remarks...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `remarks...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `remarks...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `remarks...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Billing_Model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Billing.php(127): App\Models\Student\Billing_Model->get_sessions_billing('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Billing->student_billing()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Billing))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-22 14:54:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`sessio...' at line 1
+CRITICAL - 2022-01-22 14:54:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`sessio...' at line 1
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `remarks...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `remarks...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `remarks...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `remarks...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Billing_Model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Billing.php(127): App\Models\Student\Billing_Model->get_sessions_billing('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Billing->student_billing()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Billing))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-22 14:55:47 --> Undefined property: stdClass::$subject
+#0 C:\xampp\htdocs\alba_educations\app\Views\Student\Billing.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/Billing', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Billing.php(129): view('Student/Billing', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Billing->student_billing()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Billing))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-22 14:55:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `remarks_sessions`
+JOIN `users_students` ON `class_sessions`.`student`...' at line 1
+CRITICAL - 2022-01-22 14:55:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `remarks_sessions`
+JOIN `users_students` ON `class_sessions`.`student`...' at line 1
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *, *\nFRO...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, *\nFRO...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, *\nFRO...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *, *\nFRO...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Billing_Model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Billing.php(127): App\Models\Student\Billing_Model->get_sessions_billing('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Billing->student_billing()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Billing))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-22 14:56:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`sessio...' at line 1
+CRITICAL - 2022-01-22 14:56:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`sessio...' at line 1
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *, `clas...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `clas...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `clas...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *, `clas...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Billing_Model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Billing.php(127): App\Models\Student\Billing_Model->get_sessions_billing('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Billing->student_billing()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Billing))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-22 14:57:06 --> Undefined property: stdClass::$totalAttendance
+#0 C:\xampp\htdocs\alba_educations\app\Views\Student\Billing.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/Billing', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Billing.php(129): view('Student/Billing', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Billing->student_billing()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Billing))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-22 14:57:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`sessio...' at line 1
+CRITICAL - 2022-01-22 14:57:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `remarks_sessions`
+JOIN `class_sessions` ON `remarks_sessions`.`sessio...' at line 1
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *, `clas...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `clas...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `clas...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *, `clas...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\Student\Billing_Model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Billing.php(127): App\Models\Student\Billing_Model->get_sessions_billing('3')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Billing->student_billing()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Billing))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-22 14:58:13 --> Undefined property: stdClass::$totalAttendance
+#0 C:\xampp\htdocs\alba_educations\app\Views\Student\Billing.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/Billing', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Billing.php(129): view('Student/Billing', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Billing->student_billing()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Billing))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

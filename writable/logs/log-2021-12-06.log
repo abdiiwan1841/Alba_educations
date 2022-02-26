@@ -1,0 +1,102 @@
+CRITICAL - 2021-12-06 04:44:57 --> Invalid file: FrontEnd/login.php
+#0 C:\xampp\htdocs\alba_educations\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FrontEnd/login....')
+#1 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('FrontEnd/login', Array, true)
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\Student.php(9): view('FrontEnd/login')
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\Student->login_page()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Student))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-06 06:22:33 --> Undefined variable $
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\Student.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\Student->student_login()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Student))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-06 06:23:01 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-06 06:23:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\alba_educations\app\Models\frontEnd\User_Model.php(11): CodeIgniter\Database\BaseBuilder->countAllResults()
+#3 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\Student.php(27): App\Models\frontEnd\User_model->login_request(Array)
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\Student->student_login()
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Student))
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-06 06:23:18 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-06 06:23:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\alba_educations\app\Models\frontEnd\User_Model.php(11): CodeIgniter\Database\BaseBuilder->countAllResults()
+#3 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\Student.php(27): App\Models\frontEnd\User_model->login_request(Array)
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\Student->student_login()
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Student))
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-06 06:23:54 --> Unknown column 'id' in 'field list'
+CRITICAL - 2021-12-06 06:23:54 --> Unknown column 'id' in 'field list'
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `id`\nFRO...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\frontEnd\User_Model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\Student.php(27): App\Models\frontEnd\User_model->login_request(Array)
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\Student->student_login()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Student))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-06 13:10:03 --> Unknown column 'user_student_id' in 'field list'
+CRITICAL - 2021-12-06 13:10:03 --> Unknown column 'user_student_id' in 'field list'
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `user_st...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_st...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_st...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `user_st...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\frontEnd\User_Model.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\Admin_login.php(28): App\Models\frontEnd\User_model->admin_login_request(Array)
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\Admin_login->admin_login()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Admin_login))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-06 13:26:23 --> include(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+#0 C:\xampp\htdocs\alba_educations\app\Views\Admin\Dashboard.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): http...', 'C:\\xampp\\htdocs...', 247)
+#1 C:\xampp\htdocs\alba_educations\app\Views\Admin\Dashboard.php(247): include()
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/Dashboard', Array, true)
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\Admin_login.php(35): view('Admin/Dashboard')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\Admin_login->admin_login()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Admin_login))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-06 13:26:42 --> include(/public/Admin/inc/sidebar.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\alba_educations\app\Views\Admin\Dashboard.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/public...', 'C:\\xampp\\htdocs...', 247)
+#1 C:\xampp\htdocs\alba_educations\app\Views\Admin\Dashboard.php(247): include()
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/Dashboard', Array, true)
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\Admin_login.php(35): view('Admin/Dashboard')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\Admin_login->admin_login()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Admin_login))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-06 13:26:51 --> include(/public/Admin/inc/sidebar.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\alba_educations\app\Views\Admin\Dashboard.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/public...', 'C:\\xampp\\htdocs...', 247)
+#1 C:\xampp\htdocs\alba_educations\app\Views\Admin\Dashboard.php(247): include()
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/Dashboard', Array, true)
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\Admin_login.php(35): view('Admin/Dashboard')
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\Admin_login->admin_login()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Admin_login))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

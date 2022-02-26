@@ -1,0 +1,93 @@
+CRITICAL - 2021-12-10 00:06:54 --> Invalid file: frontEnd/AdminUploadPost.php
+#0 C:\xampp\htdocs\alba_educations\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontEnd/AdminU...')
+#1 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('frontEnd/AdminU...', Array, true)
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\Assignments.php(42): view('frontEnd/AdminU...', Array)
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\Assignments->assignment_help_submittion()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Assignments))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-12-10 00:10:20 --> Table 'alba_educations.assignment_help' doesn't exist
+CRITICAL - 2021-12-10 00:10:20 --> Table 'alba_educations.assignment_help' doesn't exist
+#0 C:\xampp\htdocs\alba_educations\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\alba_educations\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\alba_educations\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\alba_educations\app\Models\frontEnd\Functions_Model.php(22): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\Assignments.php(50): App\Models\frontEnd\Functions_Model->add_new_data_withoutDuplicate('assignment_help', Array, Array)
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\Assignments->assignment_help_submittion()
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Assignments))
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-10 07:53:00 --> Undefined property: App\Controllers\Admin\Gallery::$load
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Gallery.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Gallery->add_video_page()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Gallery))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 07:57:00 --> Required parameter $API_KEY follows optional parameter $data
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Gallery.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Gallery.php(19): require()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Gallery->add_video_page()
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Gallery))
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-10 07:58:22 --> Undefined property: App\Controllers\Admin\Gallery::$load
+#0 C:\xampp\htdocs\alba_educations\app\Views\apiZoom.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Gallery.php(19): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Gallery->add_video_page()
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Gallery))
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-10 08:02:46 --> Undefined property: stdClass::$start_time
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Gallery.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Gallery->add_video_page()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Gallery))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 08:04:00 --> Undefined property: stdClass::$start_time
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Gallery.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Gallery->add_video_page()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Gallery))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 08:06:13 --> Undefined property: stdClass::$start_time
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Gallery.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Gallery->add_video_page()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Gallery))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 08:10:41 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Gallery->add_video_page()
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Gallery))
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 13:02:15 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/AdminStud...', Array, true)
+#3 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(16): view('Admin/AdminStud...', Array)
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->student_registration()
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-10 13:02:46 --> Array to string conversion
+#0 C:\xampp\htdocs\alba_educations\app\Views\Admin\AdminStudentRegisration.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Admin/AdminStud...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(16): view('Admin/AdminStud...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->student_registration()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

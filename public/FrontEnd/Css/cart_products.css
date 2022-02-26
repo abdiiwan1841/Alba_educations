@@ -1,0 +1,233 @@
+.products-topbar{
+    border: 1px solid #eee;
+    position: relative;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    background: #fafafa;
+}
+
+.products-topbar .result-count {
+    font-size: 16px;
+    margin: 0;
+    float: none;
+    color: #565656;
+}
+
+.topbar-ordering {
+    margin: 0;
+    float: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.topbar-ordering .product-form-control {
+    border: 1px solid #eee;
+    cursor: pointer;
+    background-color: #fff;
+    border-color: #ebebeb;
+    border-radius: 0;
+    height: 48px;
+    padding: 5px 16px;
+    /* width: 221px !important; */
+    font-size: 15px;
+}
+
+.form-icon{
+    position: absolute;
+    top: 19px;
+    right: 21px;
+    display: block;
+    transition:  0.9s linear;
+    
+}
+
+.topbar-ordering input::placeholder{
+    color: black;
+}
+
+
+.product-form-control option {
+    font-size: 14px;
+}
+
+.product-form-control:hover + .form-icon{
+    display: none;
+}
+
+
+.products-single-box {
+    text-align: center;
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #eee;
+    margin-bottom: 24px;
+}
+.products-single-box .products-images {
+    overflow: hidden;
+    position: relative;
+}
+.products-images img{
+    width: 100%;
+    transition: 0.4s;
+
+}
+.products-single-box .products-images ul {
+    padding: 0;
+    z-index: 2;
+    list-style-type: none;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+}
+.products-single-box .products-images ul li {
+    display: inline-block;
+}
+.products-single-box .products-images ul li a {
+    display: block;
+    background: #ffffff;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    border-radius: 30px;
+    margin: 0 5px;
+    color: #000000;
+    transition: 0.4s;
+}
+
+.products-single-box .products-images ul li a:hover{
+    color: #ffffff;
+    background: #f34a55;
+
+}
+.products-single-box:hover .products-images ul {
+    opacity: 1;
+    visibility: visible;
+}
+.products-single-box .products-images::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    content: '';
+    transition: 0.4s;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.products-single-box:hover .products-images::before {
+    opacity: 0.4;
+    visibility: visible;
+}
+
+.products-single-box:hover .products-images img{
+    transform: scale(1.04);
+}
+.products-single-box:hover .products-content-button{
+    color: #ffffff;
+    background-color: #f34a55;
+    border: 1px solid #f34a55;
+
+}
+
+.products-content-button{
+    display: inline-block;
+    border: 1px solid;
+    padding: 10px 22px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-radius: 0;
+    margin: 0;
+    width: 100%;
+    font-weight: 500;
+    color: #f34a55;
+    line-height: 20px;
+    font-size: 14px;
+    transition: 0.4s;
+}
+
+
+.products-single-box .products-contents {
+    padding: 30px 15px;
+    border-top: 1px solid #eee;
+}
+
+.products-contents h3 {
+    margin-bottom: 15px !important;
+    font-size: 22px;
+    padding: 0;
+    font-weight: 500;
+    color: #141414;
+    margin: 0;
+}
+
+.products-single-box .products-contents ul {
+    padding-left: 0;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.products-single-box .products-contents ul li {
+    display: inline-block;
+    color: #ffba0a;
+    font-size: 15px;
+    margin: -1px;
+    list-style: none outside;
+}
+
+
+.products-single-box .sale-btn {
+    position: absolute;
+    background-color: var(--mainColor);
+    top: 15px;
+    right: 15px;
+    color: #fff;
+    width: 50px;
+    font-weight: 500;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    z-index: 2;
+    font-size: 13px;
+    text-align: center;
+}
+
+.products-single-box p.price{
+    margin-bottom: 0px !important;
+}
+.products-contents h3 a{
+    color: #141414;
+    transition: 0.3s;
+}
+.products-contents h3 a:hover{
+    color: #f34a55;
+
+}
+
+
+@media only screen and (max-width: 767px){
+.products-topbar {
+    text-align: center;
+}
+
+.products-topbar .result-count{
+    margin-bottom: 15px;
+}
+.products-topbar .topbar-ordering {
+    margin: 10px 0 0;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0 !important;
+}
+
+}

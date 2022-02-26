@@ -1,0 +1,328 @@
+.workbook-banner-section {
+  position: relative;
+  z-index: 1;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+
+.workbook-banner-content h1 {
+  color: #000000;
+  margin-bottom: 20px;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.workbook-banner-content p {
+  color: #606060;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.workbook-banner-image {
+    position: relative;
+    z-index: 1;
+}
+.workbook-banner-shape4 {
+    position: absolute;
+    z-index: -1;
+    top: -73px;
+    left: 40px;
+    right: 0;
+    text-align: center;
+}
+
+.workbook-banner-shape5 {
+    position: absolute;
+    z-index: -1;
+    right: -18px;
+    bottom: -51px;
+    text-align: center;
+}
+
+.workbook-banner-shape7 {
+    position: absolute;
+    z-index: -1;
+    bottom: -19%;
+    left: -12%;
+}
+.workbook-banner-shape4 img {
+    animation: moveleftbounce 4s linear infinite;
+
+}
+
+.workbook-banner-shape5 img {
+    animation: movescale 4s linear infinite;
+}
+
+.workbook-banner-shape7 img {
+    animation: moveleftbounce 8s linear infinite;
+}
+
+/* ---------------------------------------------Third section--------------------------------------------------------------- */
+
+.container-img img {
+    width: 3%;
+    max-width: 3%;
+    opacity: 0.73;
+}
+
+.container-img{
+    margin: -16px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.workbook-workshop-shape3{
+    position: absolute;
+    z-index: -1;
+    right: 20%;
+    bottom: 12%;
+    
+}
+.workbook-workshop-shape4{
+    position: absolute;
+    z-index: -1;
+    right: 16%;
+    bottom: 50%;
+    
+}
+.workbook-workshop-shape8{
+    position: absolute;
+    z-index: -1;
+    left: 20%;
+    top: 25%;
+    
+}
+.workbook-workshop-shape3 img{
+    animation: rotateme 100s linear infinite;
+}
+.workbook-workshop-shape4 img{
+    animation: movescale 4s linear infinite;
+    
+}
+.workbook-workshop-shape8 img{
+    animation: movebounce 5s linear infinite;
+    
+}
+
+
+/* ---------------------------------------------forth section--------------------------------------------------------------- */
+
+
+.subscription-plan-area{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 0px 20px 10px 20px;
+    overflow: visible;
+}
+.subscription-plan-area-wrapper{
+    position: relative;
+
+}
+
+.subscription-plan-area-container{
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 7px 0px 10px 0px rgb(0 0 0 / 50%);
+    overflow: hidden;
+    background-color: #f7f7f7;
+}
+
+
+.subscription-plan-price-table{
+
+    text-align: center;
+}
+
+.subscription-plan-price-table-header{
+    background-color: #FF0000;
+    /* background: #555; */
+    padding: 20px 0;
+}
+
+.subscription-plan-price-table-header h3{
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.subscription-plan-price-table-price{
+    background-color: #FFEDED;
+}
+
+.subscription-plan-price-table .subscription-plan-price-table-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: #555;
+    font-weight: 800;
+    font-size: 65px;
+    padding: 40px 0;
+}
+
+.subscription-plan-price-table .subscription-plan-price-table-price .subcription-plan-price-table-original-price{
+    align-self: flex-end;
+    line-height: normal;
+    letter-spacing: normal;
+    text-transform: none;
+    font-weight: 400;
+    font-size: medium;
+    font-style: normal;
+    margin-right: 15px;
+    text-decoration: line-through;
+}
+
+.subcription-plan-price-table-currency{
+    font-size: calc(28em/100);
+    align-self: flex-start;
+    color: #000000;
+    margin-right: 3px;
+
+}
+
+.subcription-plan-price-table-intergerPart{
+    color: #000000;
+    line-height: .8;
+}
+
+.subcription-plan-price-table-text{
+    line-height: normal;
+    letter-spacing: normal;
+    text-transform: none;
+    font-weight: 900;
+    font-size: medium;
+    font-style: normal;
+    width: 100%;
+}
+
+.subscription-plan-price-table-features-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    background-color: #FFEDED;
+}
+
+.subscription-plan-price-table-features-list li{
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.subscription-plan-price-table-featureInner{
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.subscription-plan-price-table-featureInner i{
+    margin-right: 10px;
+    font-size: 1.3em;
+}
+
+.subscription-plan-price-table-footer{
+    padding: 30px 0;
+    background-color: #FFEDED;
+}
+.subscription-plan-price-table-footer a:hover{
+    color: #ffffff;
+}
+
+.subscription-plan-price-table-button{
+    font-size: 16px;
+    padding: 15px 30px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-color: #FF1010;
+    display: inline-block;
+    line-height: 1;
+    text-align: center;
+    transition: all .3s;
+    box-shadow: none;
+    text-decoration: none;
+
+}
+
+.subscription-plan-price-table-additionalInfo{
+    margin: 15px 30px 0px 30px;
+    font-size: 13px;
+    line-height: 1.4;
+}
+.subscription-plan-price-table-ribbon{
+    position: absolute;
+    top: -9px;
+    left: auto;
+    right: 0;
+    transform: rotate(90deg);
+    width: 150px;
+    overflow: hidden;
+    height: 150px;
+}
+
+.subscription-plan-price-table-ribbon-inner{
+    text-align: center;
+    left: 0;
+    width: 200%;
+    transform: translateY(-50%) translateX(-50%) translateX(35px) rotate(-45deg);
+    margin-top: 35px;
+    font-size: 13px;
+    line-height: 2;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: #000;
+    color: #ffffff;
+}
+
+
+
+
+@media only screen and (min-width: 1550px) {
+    .workbook-banner-section .container-fluid {
+      max-width: 1500px;
+    }
+  }
+
+  @media (max-width:767px) {
+  .workbook-banner-shape4, .workbook-banner-shape5 , .workbook-banner-shape7, .workbook-workshop-shape3, .workbook-workshop-shape4, .workbook-workshop-shape8{
+      display: none;
+  } 
+
+  .workbook-banner-content {
+    text-align: center;
+}
+  .workbook-banner-content h1 {
+    margin-bottom: 12px;
+    font-size: 28px;
+    line-height: 1.4;
+}
+.workbook-banner-content p {
+    font-weight: 500;
+    font-size: 20px;
+}
+.container-img {
+    margin: -12px 0px 0px 0px;
+}
+.premium-access-content .sub-title {
+    font-size: 12.5px;
+}
+.premium-access-content h2 {
+    max-width: 100%;
+    font-size: 25px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.premium-access-content p {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+}
+}

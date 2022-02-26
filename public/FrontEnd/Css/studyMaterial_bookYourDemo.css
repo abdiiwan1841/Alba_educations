@@ -1,0 +1,292 @@
+/* -------------------------------------------first section---------------------------------------------------- */
+.demo-banner-shape4{
+    position: absolute;
+    z-index: -1;
+    top: -12%;
+    left: 33%;
+    right: 0;
+}
+.demo-banner-shape5{
+    position: absolute;
+    z-index: -1;
+    left: -92.5%;
+    bottom: -26.5%;
+}
+.demo-banner-shape6{
+    position: absolute;
+    z-index: -1;
+   left: 33%;
+    bottom: 13%;
+}
+.demo-banner-shape7{
+    position: absolute;
+    z-index: -1;
+    top: -16%;
+    left: -8%;
+}
+.demo-banner-shape4 img{
+    animation: moveleftbounce 8s linear infinite;
+}
+.demo-banner-shape5 img{
+    animation: movescale 4s linear infinite;
+}
+.demo-banner-shape6 img{
+    animation: movebounce 4s linear infinite;
+}
+.demo-banner-shape7 img{
+    animation: moveleftbounce 8s linear infinite;
+}
+
+
+
+/* -------------------------------------------second section---------------------------------------------------- */
+
+
+
+.demo-bookNow-wrapper{
+    margin: 0 auto 1em;
+    max-width: 800px;
+}
+
+.demo-bookNow-area{
+    border-radius: 0px;
+    background-color: #ff3d3d;
+    color: #26292d;
+}
+
+.demo-bookNow-area-row1{
+    padding: 8px 0;
+    border-radius: 0px;
+    position: relative;
+    
+}
+
+.row1-heading-title{
+    color: #ffffff;
+    padding: 0;
+    border: 0px solid #dddddd;
+    margin-bottom: 1em !important;
+}
+.row1-head-text{
+    font-size: 23px;
+    line-height: 140%;
+}
+
+.row1-sub-heading{
+    font-family: Open Sans;
+    color: #ffffff;
+    padding: 0;
+}
+
+.row1-sub-heading-text{
+    font-size: 19px;
+    line-height: 140%;
+}
+
+.row1-image-section{
+    position: absolute;
+    width: 107px;
+    top: 9px;
+    left: 9px;
+    
+}
+.demo-bookNow-area-row2{
+    margin: auto;
+    padding: 8px 0;
+    justify-content: center;
+
+}
+
+
+
+.row2-first-name{
+    padding-right: 0.5em;
+}
+
+.row2-first-name input{
+    width: 100%;
+    height: 42px;
+}
+
+.form-layout{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative;
+    font-family: Open Sans;
+    box-sizing: border-box;
+}
+
+.form-layout-name-field, .form-layout-email-field, .form-layout-phone-field, .form-layout-select-field, .form-layout-topic-field, .form-layout-subject-field , .form-layout-date-field, .form-layout-time-field, .form-layout-timezone-field{
+    flex-grow: 1;
+    flex-basis: 50%;
+    margin: 0 !important;
+    align-self: flex-end;
+}
+
+
+.form-layout-select-field option{
+    background-color: #ffffff;
+}
+
+.form-layout-field-input{
+    color: #000000!important;
+    border-radius: 4px;
+    background-color: #ffffff;
+    line-height: 40px;
+    position: relative;
+}
+
+.form-layout-field-place{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid rgba(38,41,45,0.3);
+    border-radius: inherit;
+}
+
+.form-layout-field-input  input{
+    background-color: transparent !important;
+    text-align: left;
+    color: inherit !important;
+    padding: 0 15px!important;
+    line-height: inherit!important;
+    border: 0 !important;
+    border-radius: inherit !important;
+    height: 40px;
+    font-size: 17px;
+    display: block;
+    position: relative;
+    font-family: inherit;
+    margin: 0 !important;
+    min-height: auto;
+    /* width: 100%; */
+    outline: 0 !important;
+    float: unset !important
+}
+
+::placeholder {
+    color: #c1c1c1;
+}
+
+.form-layout-field-message{
+    display: none;
+    font-size: 0.8em;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 0;
+    margin-top: -8px;
+    border: 1px solid #f00;
+    background: #fee;
+    color: #f00;
+    padding: 0.5em 1em;
+    border-radius: 0.55em;
+    transform: translate(-50%, -100%);
+    box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+    white-space: nowrap;
+
+}
+
+.demo-bookNow-row3-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px ;
+}
+
+.form-button{
+    padding: 8px 150px;
+    border: 2px solid green;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.form-button:hover{
+    border: 2px solid green;
+    color: #ffffff;
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+.workbook-banner-section .col-lg-5, .workbook-banner-section .col-lg-7 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.demo-banner-shape6 {
+    
+    bottom: -10%;
+}
+}
+@media (min-width:768px) and (max-width:991px) {
+    .demo-banner-shape4, .demo-banner-shape5, .demo-banner-shape6, .demo-banner-shape7{
+        display: none;
+    }
+    .workbook-banner-content {
+        text-align: center;
+    }
+    .workbook-banner-content h1 {
+        font-size: 35px;
+    }
+    .workbook-banner-content p {
+        font-size: 16px;
+        max-width: 535px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #000000;
+    }
+    .workbook-banner-image {
+        margin-top: 30px;
+    }
+    .workbook-banner-section .container-fluid {
+        max-width: 720px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+@media (max-width:767px) {
+    .demo-banner-shape4, .demo-banner-shape5, .demo-banner-shape6, .demo-banner-shape7{
+        display: none;
+    }
+
+    .workbook-banner-content {
+        text-align: center;
+    }
+    .workbook-banner-content h1 {
+        margin-bottom: 12px;
+        font-size: 28px;
+        line-height: 1.4;
+    }
+    .workbook-banner-content p {
+        max-width: 100%;
+        font-weight: 500;
+        font-size: 15px;
+        color: #000000;
+    }
+    .workbook-banner-image {
+        margin-top: 30px;
+    }
+    .pad-left-right-60 {
+        padding: 0px 0px !important;
+    }
+    .form-button {
+        padding: 5px 88px;
+      }
+    .row1-image-section{
+        display: none;
+    }
+
+
+    
+}
+
+@media (max-width:524px) {
+    .p-right-5em {
+        padding-right: 0em;
+    }
+    
+}

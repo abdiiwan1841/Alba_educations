@@ -1,0 +1,210 @@
+CRITICAL - 2022-01-03 10:11:00 --> cURL error 6: Could not resolve host: api.razorpay.com
+#0 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\libs\Requests-1.8.0\library\Requests\Transport\cURL.php(179): Requests_Transport_cURL->process_response('', Array)
+#1 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\libs\Requests-1.8.0\library\Requests.php(381): Requests_Transport_cURL->request('https://api.raz...', Array, Array, Array)
+#2 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\src\Request.php(57): Requests::request('https://api.raz...', Array, Array, 'POST', Array)
+#3 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\src\Entity.php(92): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#4 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#5 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\src\Order.php(12): Razorpay\Api\Entity->create(Array)
+#6 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\StudyMaterial.php(38): Razorpay\Api\Order->create(Array)
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\StudyMaterial->regular_plan_submit()
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\StudyMaterial))
+#9 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-03 10:13:16 --> cURL error 6: Could not resolve host: api.razorpay.com
+#0 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\libs\Requests-1.8.0\library\Requests\Transport\cURL.php(179): Requests_Transport_cURL->process_response('', Array)
+#1 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\libs\Requests-1.8.0\library\Requests.php(381): Requests_Transport_cURL->request('https://api.raz...', Array, Array, Array)
+#2 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\src\Request.php(57): Requests::request('https://api.raz...', Array, Array, 'POST', Array)
+#3 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\src\Entity.php(92): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#4 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#5 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\src\Order.php(12): Razorpay\Api\Entity->create(Array)
+#6 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\StudyMaterial.php(38): Razorpay\Api\Order->create(Array)
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\StudyMaterial->regular_plan_submit()
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\StudyMaterial))
+#9 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-03 10:14:47 --> cURL error 28: Failed to connect to api.razorpay.com port 443: Timed out
+#0 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\libs\Requests-1.8.0\library\Requests\Transport\cURL.php(179): Requests_Transport_cURL->process_response('', Array)
+#1 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\libs\Requests-1.8.0\library\Requests.php(381): Requests_Transport_cURL->request('https://api.raz...', Array, Array, Array)
+#2 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\src\Request.php(57): Requests::request('https://api.raz...', Array, Array, 'POST', Array)
+#3 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\src\Entity.php(92): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#4 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\src\Entity.php(20): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#5 C:\xampp\htdocs\alba_educations\app\Views\razorpay\razorpay-php\src\Order.php(12): Razorpay\Api\Entity->create(Array)
+#6 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\StudyMaterial.php(38): Razorpay\Api\Order->create(Array)
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\StudyMaterial->regular_plan_submit()
+#8 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\StudyMaterial))
+#9 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-03 11:35:25 --> Undefined variable $amount_to_pay
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\StudyMaterial.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\StudyMaterial->regular_plan_submit()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\StudyMaterial))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-03 11:35:39 --> Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in C:\xampp\htdocs\alba_educations\system\Debug\Exceptions.php:363
+Stack trace:
+#0 C:\xampp\htdocs\alba_educations\system\Debug\Exceptions.php(363): abs('BAD_REQUEST_ERR...')
+#1 C:\xampp\htdocs\alba_educations\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions->determineCodes(Object(Razorpay\Api\Errors\BadRequestError))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Razorpay\Api\Errors\BadRequestError))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-03 11:36:00 --> Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in C:\xampp\htdocs\alba_educations\system\Debug\Exceptions.php:363
+Stack trace:
+#0 C:\xampp\htdocs\alba_educations\system\Debug\Exceptions.php(363): abs('BAD_REQUEST_ERR...')
+#1 C:\xampp\htdocs\alba_educations\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions->determineCodes(Object(Razorpay\Api\Errors\BadRequestError))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Razorpay\Api\Errors\BadRequestError))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-03 11:38:06 --> Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in C:\xampp\htdocs\alba_educations\system\Debug\Exceptions.php:363
+Stack trace:
+#0 C:\xampp\htdocs\alba_educations\system\Debug\Exceptions.php(363): abs('BAD_REQUEST_ERR...')
+#1 C:\xampp\htdocs\alba_educations\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions->determineCodes(Object(Razorpay\Api\Errors\BadRequestError))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Razorpay\Api\Errors\BadRequestError))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-03 11:38:56 --> Call to undefined function App\Controllers\FrontEnd\Number()
+#0 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\StudyMaterial->regular_plan_submit()
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\StudyMaterial))
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-03 11:39:24 --> Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in C:\xampp\htdocs\alba_educations\system\Debug\Exceptions.php:363
+Stack trace:
+#0 C:\xampp\htdocs\alba_educations\system\Debug\Exceptions.php(363): abs('BAD_REQUEST_ERR...')
+#1 C:\xampp\htdocs\alba_educations\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions->determineCodes(Object(Razorpay\Api\Errors\BadRequestError))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Razorpay\Api\Errors\BadRequestError))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-03 13:11:51 --> Cannot redeclare App\Controllers\FrontEnd\StudyMaterial::regular_plan_submit()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-03 13:12:04 --> Cannot redeclare App\Controllers\FrontEnd\StudyMaterial::regular_plan_submit()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-03 14:27:56 --> Invalid file: weeklyPlan.php.php
+#0 C:\xampp\htdocs\alba_educations\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('weeklyPlan.php....')
+#1 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('weeklyPlan.php....', Array, true)
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\StudyMaterial.php(119): view('weeklyPlan.php....', Array)
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\StudyMaterial->weekly_plan_submit()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\StudyMaterial))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-03 14:28:15 --> Invalid file: weeklyPlan.php
+#0 C:\xampp\htdocs\alba_educations\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('weeklyPlan.php')
+#1 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('weeklyPlan.php', Array, true)
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\FrontEnd\StudyMaterial.php(119): view('weeklyPlan.php', Array)
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\StudyMaterial->weekly_plan_submit()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\StudyMaterial))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-03 16:40:16 --> Unmatched '}'
+#0 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/Curricu...', Array, true)
+#2 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Curriculum.php(40): view('Student/Curricu...', Array)
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Curriculum->Curriculum_page()
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Curriculum))
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-03 16:44:30 --> Undefined variable $homework
+#0 C:\xampp\htdocs\alba_educations\app\Views\Student\Curriculum.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/Curricu...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Curriculum.php(40): view('Student/Curricu...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Curriculum->Curriculum_page()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Curriculum))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-03 16:45:48 --> time() expects exactly 0 arguments, 1 given
+#0 C:\xampp\htdocs\alba_educations\app\Views\Student\Curriculum.php(69): time('d-M-Y')
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/Curricu...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Curriculum.php(40): view('Student/Curricu...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Curriculum->Curriculum_page()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Curriculum))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-03 16:45:55 --> time() expects exactly 0 arguments, 1 given
+#0 C:\xampp\htdocs\alba_educations\app\Views\Student\Curriculum.php(69): time('D-M-Y')
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/Curricu...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Curriculum.php(40): view('Student/Curricu...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Curriculum->Curriculum_page()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Curriculum))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-03 16:46:08 --> Call to undefined function now()
+#0 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/Curricu...', Array, true)
+#3 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Curriculum.php(40): view('Student/Curricu...', Array)
+#4 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Curriculum->Curriculum_page()
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Curriculum))
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-03 16:46:16 --> date() expects at least 1 argument, 0 given
+#0 C:\xampp\htdocs\alba_educations\app\Views\Student\Curriculum.php(69): date()
+#1 C:\xampp\htdocs\alba_educations\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\alba_educations\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\alba_educations\system\Common.php(1271): CodeIgniter\View\View->render('Student/Curricu...', Array, true)
+#4 C:\xampp\htdocs\alba_educations\app\Controllers\Student\Curriculum.php(40): view('Student/Curricu...', Array)
+#5 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Student\Curriculum->Curriculum_page()
+#6 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Curriculum))
+#7 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-03 18:03:17 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->students_subjects()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-03 18:03:27 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->students_subjects()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-03 18:03:34 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->students_subjects()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-03 18:03:47 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->students_subjects()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-03 18:06:20 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\alba_educations\app\Controllers\Admin\Students.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(928): App\Controllers\Admin\Students->students_subjects()
+#2 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students))
+#3 C:\xampp\htdocs\alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

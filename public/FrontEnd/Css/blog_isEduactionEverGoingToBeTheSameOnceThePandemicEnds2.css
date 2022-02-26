@@ -1,0 +1,51 @@
+blockquote, .blockquote {
+    overflow: hidden;
+    background-color: #fafafa !important;
+    padding: 50px !important;
+    position: relative;
+    text-align: center;
+    border: none !important;
+    z-index: 1;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+blockquote p, .blockquote p {
+    color: #221638;
+    line-height: 1.6;
+    margin-bottom: 0;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 22px !important;
+}
+
+p {
+    color: #606060;
+    margin-bottom: 15px;
+    line-height: 1.7;
+    font-size: 16px;
+}
+blockquote::after, .blockquote::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--mainColor);
+}
+
+
+@media only screen and (max-width: 767px){
+blockquote, .blockquote {
+    padding: 20px !important;
+}
+blockquote p, .blockquote p {
+    font-size: 17px !important;
+}
+.blog-details-content p {
+    font-size: 14px !important;
+}
+}

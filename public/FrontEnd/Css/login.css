@@ -1,0 +1,67 @@
+.login-area{
+  width: 33%;
+  z-index: 999;
+  margin-bottom: 2rem;
+}
+.shape-img-img{
+  width: 30rem;
+}
+
+.loginshapes{
+  position: relative;
+}
+.loginshape1{
+  position: absolute;
+  z-index: -1;
+  left: 15%;
+  bottom: -3%;;
+}
+.loginshape2{
+  position: absolute;
+  z-index: -1;
+  left: 21%;
+  bottom: 49%;
+      
+}
+.loginshape2 img{
+  width: 58%;
+}
+.loginshape1 img{
+  animation: movescale 3s linear infinite;
+}
+
+.loginshape2 img{
+  animation:  moveleftbounce 3s linear infinite;
+}
+
+@media (min-width:1024px) and (max-width:1300px) {
+  .login-area{
+    width: 35%;
+  }
+}
+@media (min-width:768px) and (max-width:1023px) {
+  .login-area{
+    width: 40%;
+  }
+}
+@media (max-width: 767px) {
+  .login-area{
+    width: 60%;
+  }
+  .loginshape1, .loginshape2{
+    display: none;
+  }
+  
+}
+@media (max-width: 460px) {
+  .login-area{
+    width: 80%;
+  }
+  
+}
+@media (max-width: 320px) {
+  .login-area{
+    width: 100%;
+  }
+  
+}

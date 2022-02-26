@@ -1,0 +1,28 @@
+.webinar-content{
+    transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0px 20px 0px 20px;
+    overflow: visible;
+}
+
+.webinar-button{
+    font-size: 18px;
+    font-weight: bold;
+    fill: #ffffff;
+    color: #ffffff;
+    border-radius: 3px 3px 3px 3px;
+    padding: 20px 30px 20px 30px;
+    background-color: var(--mainColor);
+    border: none;
+    outline: none;
+}
+
+@media (max-width:767px) {
+    .webinar-content {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .webinar-content .p-40 {
+        padding: 20px;
+    }
+    
+}

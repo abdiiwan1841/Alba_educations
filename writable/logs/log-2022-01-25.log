@@ -1,0 +1,585 @@
+CRITICAL - 2022-01-25 03:52:53 --> Class 'App\Models\frontEnd\User_model' not found
+#0 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\Admin_login->admin_login()
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Admin_login))
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-25 10:30:45 --> Class 'App\Models\frontEnd\User_model' not found
+#0 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\Admin_login->admin_login()
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Admin_login))
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-25 10:33:55 --> Class 'App\Models\frontEnd\User_model' not found
+#0 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\Admin_login->admin_login()
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Admin_login))
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-25 10:36:12 --> Class 'App\Models\frontEnd\User_model' not found
+#0 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\Admin_login->admin_login()
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Admin_login))
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-25 10:37:25 --> Invalid file: admin/Dashboard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/Dashboard...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/Dashboard', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Config/Routes.php(248): view('admin/Dashboard')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(875): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:37:26 --> Invalid file: admin/Dashboard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/Dashboard...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/Dashboard', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Config/Routes.php(248): view('admin/Dashboard')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(875): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:38:11 --> Invalid file: admin/Dashboard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/Dashboard...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/Dashboard', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Config/Routes.php(248): view('admin/Dashboard')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(875): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:38:16 --> Invalid file: admin/Dashboard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/Dashboard...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/Dashboard', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Config/Routes.php(248): view('admin/Dashboard')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(875): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:38:22 --> Invalid file: admin/Dashboard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/Dashboard...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/Dashboard', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Config/Routes.php(248): view('admin/Dashboard')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(875): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:38:47 --> Invalid file: admin/Dashboard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/Dashboard...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/Dashboard', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Config/Routes.php(248): view('admin/Dashboard')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(875): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:38:59 --> Invalid file: admin/Dashboard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/Dashboard...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/Dashboard', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Config/Routes.php(248): view('admin/Dashboard')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(875): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:39:24 --> Invalid file: admin/Dashboard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/Dashboard...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/Dashboard', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Config/Routes.php(247): view('admin/Dashboard')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(875): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:39:35 --> Invalid file: admin/Dashboard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/Dashboard...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/Dashboard', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Config/Routes.php(247): view('admin/Dashboard')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(875): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:40:11 --> Invalid file: admin/Dashboard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/Dashboard...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/Dashboard', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Config/Routes.php(247): view('admin/Dashboard')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(875): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:40:19 --> Invalid file: admin/Dashboard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/Dashboard...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/Dashboard', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/FrontEnd/Admin_login.php(35): view('admin/Dashboard')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\Admin_login->admin_login()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Admin_login))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:40:29 --> Invalid file: admin/Dashboard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/Dashboard...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/Dashboard', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/FrontEnd/Admin_login.php(35): view('admin/Dashboard')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\Admin_login->admin_login()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Admin_login))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:44:53 --> Invalid file: admin/adminStudentBilling.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminStud...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminStud...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Billing.php(26): view('admin/adminStud...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Billing->adminStudentBilling()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Billing))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:45:01 --> Invalid file: admin/adminStudentBilling.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminStud...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminStud...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Billing.php(26): view('admin/adminStud...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Billing->adminStudentBilling()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Billing))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:46:39 --> Invalid file: admin/Dashboard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/Dashboard...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/Dashboard', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Config/Routes.php(248): view('admin/Dashboard')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(875): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:46:55 --> Invalid file: admin/Dashboard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/Dashboard...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/Dashboard', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Config/Routes.php(248): view('admin/Dashboard')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(875): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:49:40 --> Invalid file: admin/AdminUploadPost.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/AdminUplo...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/AdminUplo...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Config/Routes.php(250): view('admin/AdminUplo...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(875): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:49:50 --> Invalid file: admin/AdminUploadPost.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/AdminUplo...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/AdminUplo...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Config/Routes.php(250): view('admin/AdminUplo...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(875): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:56:07 --> Invalid file: admin/adminRequestTestresults.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(62): view('admin/adminRequ...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestTestresults()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:56:12 --> Invalid file: admin/adminRequestTest.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(68): view('admin/adminRequ...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestTest()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:56:26 --> Invalid file: admin/adminRequestReportCard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(74): view('admin/adminRequ...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestReportCard()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:56:35 --> Invalid file: admin/adminRequestTeacherFeedback.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(91): view('admin/adminRequ...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestTeacherFeedback()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 10:59:34 --> Invalid file: admin/AdminUploadPost.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/AdminUplo...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/AdminUplo...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Config/Routes.php(250): view('admin/AdminUplo...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(875): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 13:35:47 --> Invalid file: frontEnd/Login.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontEnd/Login....')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('frontEnd/Login', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/FrontEnd/Student.php(31): view('frontEnd/Login', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\Student->student_login()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Student))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 13:37:01 --> Invalid file: frontEnd/Login.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontEnd/Login....')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('frontEnd/Login', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/FrontEnd/Student.php(31): view('frontEnd/Login', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\Student->student_login()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Student))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 13:41:31 --> Invalid file: frontEnd/Login.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontEnd/Login....')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('frontEnd/Login', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/FrontEnd/Student.php(31): view('frontEnd/Login', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\Student->student_login()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Student))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 13:41:42 --> Invalid file: frontEnd/Login.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontEnd/Login....')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('frontEnd/Login', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/FrontEnd/Student.php(31): view('frontEnd/Login', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\Student->student_login()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Student))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 14:03:35 --> Invalid file: frontEnd/Teacher_login.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontEnd/Teache...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('frontEnd/Teache...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/FrontEnd/Teacher.php(32): view('frontEnd/Teache...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\Teacher->teacher_login()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Teacher))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 14:09:10 --> Invalid file: frontEnd/Admin_login.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontEnd/Admin_...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('frontEnd/Admin_...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/FrontEnd/Admin_login.php(39): view('frontEnd/Admin_...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\Admin_login->admin_login()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Admin_login))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 14:28:37 --> Invalid file: admin/AdminUploadPost.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/AdminUplo...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/AdminUplo...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Config/Routes.php(250): view('admin/AdminUplo...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(875): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 14:29:11 --> Invalid file: admin/AdminUploadPost.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/AdminUplo...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/AdminUplo...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Config/Routes.php(250): view('admin/AdminUplo...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(875): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 14:38:13 --> Invalid file: admin/adminRequestReportCard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(74): view('admin/adminRequ...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestReportCard()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 14:39:01 --> Invalid file: admin/adminRequestStudyMaterial.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(80): view('admin/adminRequ...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestStudyMaterial()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 14:47:16 --> Invalid file: frontEnd/Admin_login.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontEnd/Admin_...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('frontEnd/Admin_...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/FrontEnd/Admin_login.php(42): view('frontEnd/Admin_...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\Admin_login->admin_login()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Admin_login))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 14:56:40 --> Invalid file: admin/adminRequestReportCard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(74): view('admin/adminRequ...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestReportCard()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 15:20:10 --> Invalid file: admin/adminRequestRescheduleClass.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(96): view('admin/adminRequ...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestRescheduleClass()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 15:20:14 --> Invalid file: admin/adminRequestTeacherFeedback.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(91): view('admin/adminRequ...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestTeacherFeedback()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 15:20:19 --> Invalid file: admin/adminRequestPerformance.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(86): view('admin/adminRequ...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestPerformance()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 15:20:23 --> Invalid file: admin/adminRequestStudyMaterial.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(80): view('admin/adminRequ...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestStudyMaterial()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 16:11:48 --> App\Controllers\Admin\Classes_sessions::main(): Failed opening required '/home/hs0nusiagw9s/public_html/app/views/php-jwt-master/src/BeforeValidException.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-25 16:18:30 --> Invalid file: admin/adminRequestReportCard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(74): view('admin/adminRequ...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestReportCard()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 16:42:24 --> Invalid file: admin/adminRequestReportCard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(74): view('admin/adminRequ...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestReportCard()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 17:24:37 --> Invalid file: admin/adminRequestReportCard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(74): view('admin/adminRequ...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestReportCard()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 18:21:39 --> Invalid file: admin/adminRequestTestresults.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(62): view('admin/adminRequ...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestTestresults()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 18:22:05 --> Invalid file: admin/adminRequestTest.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(68): view('admin/adminRequ...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestTest()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 18:22:18 --> Invalid file: admin/adminRequestReportCard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(74): view('admin/adminRequ...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestReportCard()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 18:22:34 --> Invalid file: admin/adminRequestReportCard.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminRequ...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('admin/adminRequ...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(74): view('admin/adminRequ...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestReportCard()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-01-25 18:38:38 --> Unknown column 'teacher' in 'where clause'
+ERROR - 2022-01-25 18:38:38 --> Unknown column 'teacher' in 'where clause'
+CRITICAL - 2022-01-25 18:38:38 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Teacher/Curriculum.php(40): App\Models\Student\stdFunctions_Model->get_my_data('curriculum', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Teacher\Curriculum->Curriculum_page()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Curriculum))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-25 18:38:52 --> Unknown column 'teacher' in 'where clause'
+ERROR - 2022-01-25 18:38:52 --> Unknown column 'teacher' in 'where clause'
+CRITICAL - 2022-01-25 18:38:52 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Teacher/Curriculum.php(40): App\Models\Student\stdFunctions_Model->get_my_data('curriculum', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Teacher\Curriculum->Curriculum_page()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Curriculum))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-25 18:39:40 --> Unknown column 'teacher' in 'where clause'
+ERROR - 2022-01-25 18:39:40 --> Unknown column 'teacher' in 'where clause'
+CRITICAL - 2022-01-25 18:39:40 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Teacher/Curriculum.php(40): App\Models\Student\stdFunctions_Model->get_my_data('curriculum', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Teacher\Curriculum->Curriculum_page()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Curriculum))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-25 19:19:07 --> Unknown column 'teacher' in 'where clause'
+ERROR - 2022-01-25 19:19:07 --> Unknown column 'teacher' in 'where clause'
+CRITICAL - 2022-01-25 19:19:07 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Teacher/Curriculum.php(40): App\Models\Student\stdFunctions_Model->get_my_data('curriculum', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Teacher\Curriculum->Curriculum_page()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Curriculum))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-25 22:33:30 --> Unknown column 'teacher' in 'where clause'
+ERROR - 2022-01-25 22:33:30 --> Unknown column 'teacher' in 'where clause'
+CRITICAL - 2022-01-25 22:33:30 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Teacher/Homework.php(76): App\Models\Student\stdFunctions_Model->get_my_data('curriculum', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Teacher\Homework->homework_submit()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Homework))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-25 22:34:58 --> Unknown column 'teacher' in 'where clause'
+ERROR - 2022-01-25 22:34:58 --> Unknown column 'teacher' in 'where clause'
+CRITICAL - 2022-01-25 22:34:58 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Teacher/Homework.php(76): App\Models\Student\stdFunctions_Model->get_my_data('curriculum', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Teacher\Homework->homework_submit()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Homework))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-25 23:05:41 --> Unknown column 'teacher' in 'where clause'
+ERROR - 2022-01-25 23:05:41 --> Unknown column 'teacher' in 'where clause'
+CRITICAL - 2022-01-25 23:05:41 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Teacher/Curriculum.php(40): App\Models\Student\stdFunctions_Model->get_my_data('curriculum', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Teacher\Curriculum->Curriculum_page()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Curriculum))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-25 23:05:47 --> Unknown column 'teacher' in 'where clause'
+ERROR - 2022-01-25 23:05:47 --> Unknown column 'teacher' in 'where clause'
+CRITICAL - 2022-01-25 23:05:47 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Teacher/Curriculum.php(40): App\Models\Student\stdFunctions_Model->get_my_data('curriculum', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Teacher\Curriculum->Curriculum_page()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Curriculum))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-25 23:07:27 --> Unknown column 'teacher' in 'where clause'
+ERROR - 2022-01-25 23:07:27 --> Unknown column 'teacher' in 'where clause'
+CRITICAL - 2022-01-25 23:07:27 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Teacher/Curriculum.php(40): App\Models\Student\stdFunctions_Model->get_my_data('curriculum', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Teacher\Curriculum->Curriculum_page()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Curriculum))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-25 23:07:41 --> Unknown column 'teacher' in 'where clause'
+ERROR - 2022-01-25 23:07:41 --> Unknown column 'teacher' in 'where clause'
+CRITICAL - 2022-01-25 23:07:41 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Teacher/Curriculum.php(40): App\Models\Student\stdFunctions_Model->get_my_data('curriculum', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Teacher\Curriculum->Curriculum_page()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Curriculum))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-25 23:07:46 --> Unknown column 'teacher' in 'where clause'
+ERROR - 2022-01-25 23:07:46 --> Unknown column 'teacher' in 'where clause'
+CRITICAL - 2022-01-25 23:07:46 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Teacher/Curriculum.php(40): App\Models\Student\stdFunctions_Model->get_my_data('curriculum', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Teacher\Curriculum->Curriculum_page()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Curriculum))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-25 23:07:51 --> Unknown column 'teacher' in 'where clause'
+ERROR - 2022-01-25 23:07:51 --> Unknown column 'teacher' in 'where clause'
+CRITICAL - 2022-01-25 23:07:51 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Teacher/Curriculum.php(40): App\Models\Student\stdFunctions_Model->get_my_data('curriculum', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Teacher\Curriculum->Curriculum_page()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Curriculum))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-25 23:08:45 --> Unknown column 'teacher' in 'where clause'
+ERROR - 2022-01-25 23:08:45 --> Unknown column 'teacher' in 'where clause'
+CRITICAL - 2022-01-25 23:08:45 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Teacher/Curriculum.php(40): App\Models\Student\stdFunctions_Model->get_my_data('curriculum', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Teacher\Curriculum->Curriculum_page()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Curriculum))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-25 23:26:26 --> Unknown column 'teacher' in 'where clause'
+ERROR - 2022-01-25 23:26:26 --> Unknown column 'teacher' in 'where clause'
+CRITICAL - 2022-01-25 23:26:26 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Teacher/Curriculum.php(40): App\Models\Student\stdFunctions_Model->get_my_data('curriculum', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Teacher\Curriculum->Curriculum_page()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Curriculum))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-25 23:45:03 --> Unknown column 'teacher' in 'where clause'
+ERROR - 2022-01-25 23:45:03 --> Unknown column 'teacher' in 'where clause'
+CRITICAL - 2022-01-25 23:45:03 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Teacher/Curriculum.php(40): App\Models\Student\stdFunctions_Model->get_my_data('curriculum', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Teacher\Curriculum->Curriculum_page()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Curriculum))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-25 23:45:34 --> Unknown column 'teacher' in 'where clause'
+ERROR - 2022-01-25 23:45:34 --> Unknown column 'teacher' in 'where clause'
+CRITICAL - 2022-01-25 23:45:34 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Teacher/Curriculum.php(40): App\Models\Student\stdFunctions_Model->get_my_data('curriculum', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Teacher\Curriculum->Curriculum_page()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Curriculum))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,36 @@
+ERROR - 2022-01-27 01:00:50 --> Unknown column 'teacher' in 'where clause'
+ERROR - 2022-01-27 01:00:50 --> Unknown column 'teacher' in 'where clause'
+CRITICAL - 2022-01-27 01:00:50 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Teacher/Curriculum.php(40): App\Models\Student\stdFunctions_Model->get_my_data('curriculum', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Teacher\Curriculum->Curriculum_page()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Curriculum))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-27 01:17:11 --> Unknown column 'teacher' in 'where clause'
+ERROR - 2022-01-27 01:17:11 --> Unknown column 'teacher' in 'where clause'
+CRITICAL - 2022-01-27 01:17:11 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Teacher/Curriculum.php(40): App\Models\Student\stdFunctions_Model->get_my_data('curriculum', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Teacher\Curriculum->Curriculum_page()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Curriculum))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-27 12:48:17 --> Unknown column 'teacher' in 'where clause'
+ERROR - 2022-01-27 12:48:17 --> Unknown column 'teacher' in 'where clause'
+CRITICAL - 2022-01-27 12:48:17 --> Call to a member function getResult() on bool
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Teacher/Curriculum.php(40): App\Models\Student\stdFunctions_Model->get_my_data('curriculum', Array)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Teacher\Curriculum->Curriculum_page()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\Curriculum))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 16:12:52 --> Invalid file: frontEnd/RegularPlan.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontEnd/Regula...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('frontEnd/Regula...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/FrontEnd/StudyMaterial.php(108): view('frontEnd/Regula...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\FrontEnd\StudyMaterial->successRegularPlan()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\StudyMaterial))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

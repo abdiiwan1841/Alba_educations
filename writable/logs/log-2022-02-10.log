@@ -1,0 +1,53 @@
+CRITICAL - 2022-02-10 10:30:05 --> Invalid file: FrontEnd/teacher_login.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FrontEnd/teache...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('FrontEnd/teache...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Requests.php(93): view('FrontEnd/teache...')
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Requests->adminRequestTest()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Requests))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-10 15:02:00 --> Invalid file: Admin/adminTeacherBilling.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/adminTeac...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('Admin/adminTeac...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Billing.php(25): view('Admin/adminTeac...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Billing->adminTeacherBilling()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Billing))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-02-10 15:16:21 --> Table 'alba_educations.study_materials' doesn't exist
+ERROR - 2022-02-10 15:18:06 --> Table 'alba_educations.teacher_feedback' doesn't exist
+CRITICAL - 2022-02-10 17:23:07 --> Invalid file: Admin/adminTeacherBilling.php
+#0 /home/hs0nusiagw9s/public_html/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/adminTeac...')
+#1 /home/hs0nusiagw9s/public_html/system/Common.php(1271): CodeIgniter\View\View->render('Admin/adminTeac...', Array, true)
+#2 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/Billing.php(25): view('Admin/adminTeac...', Array)
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\Billing->adminTeacherBilling()
+#4 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Billing))
+#5 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-02-10 18:08:34 --> Table 'alba_educations.study_materials' doesn't exist
+ERROR - 2022-02-10 18:22:30 --> Table 'alba_educations.study_materials' doesn't exist
+ERROR - 2022-02-10 18:23:27 --> Table 'alba_educations.study_materials' doesn't exist
+ERROR - 2022-02-10 18:29:38 --> Table 'alba_educations.study_materials' doesn't exist
+CRITICAL - 2022-02-10 19:27:00 --> Argument 2 passed to view() must be of the type array, null given, called in /home/hs0nusiagw9s/public_html/app/Controllers/Admin/AuditReport.php on line 118
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/AuditReport.php(118): view('Admin/adminWarn...', NULL)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\AuditReport->send_warning_to_teacher()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AuditReport))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-10 19:33:00 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Network is unreachable)
+CRITICAL - 2022-02-10 19:33:00 --> Argument 2 passed to view() must be of the type array, null given, called in /home/hs0nusiagw9s/public_html/app/Controllers/Admin/AuditReport.php on line 127
+#0 /home/hs0nusiagw9s/public_html/app/Controllers/Admin/AuditReport.php(127): view('Admin/adminWarn...', NULL)
+#1 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(928): App\Controllers\Admin\AuditReport->send_warning_to_teacher()
+#2 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AuditReport))
+#3 /home/hs0nusiagw9s/public_html/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hs0nusiagw9s/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-10 19:33:39 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Network is unreachable)
+ERROR - 2022-02-10 19:34:19 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Network is unreachable)
+ERROR - 2022-02-10 19:34:50 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Network is unreachable)
+ERROR - 2022-02-10 19:38:34 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Network is unreachable)
+ERROR - 2022-02-10 21:04:11 --> Column 'subject' cannot be null

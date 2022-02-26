@@ -1,0 +1,132 @@
+
+.registration-title-area{
+        position: relative;
+        z-index: 1;
+        word-break: break-all;
+        word-break: break-word;
+
+}
+
+.registration-title-content h2{
+    text-align: center;
+    max-width: 800px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.button2 {
+    /* border: none; */
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    color: #ffffff;
+    transition: 0.5s;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #000000;
+}
+
+
+.form-area{
+    padding: 0px 350px 40px 350px;
+}
+
+.form-area-wrapper{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 4px 2px #686162;
+}
+
+.others-links a{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    text-align: left;
+    font-weight: 900;
+    padding-bottom: 10px;
+
+}
+.others-links a:hover{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.input-input{
+    border-radius: 20px !important;
+}
+.input-input:focus {
+    border-color: unset !important;
+    box-shadow: unset !important;
+}
+
+.registration-shapes1{
+    position: absolute;
+    z-index: -1;
+    left: -7%;
+    top: 3rem;
+}
+.registration-shapes2{
+    position: absolute;
+    z-index: -111;
+    left: -7%;
+    top: 6%;
+
+}
+.registration-shapes3{
+    position: absolute;
+    z-index: -111;
+    right: -7%;
+    top: 6%;
+
+}
+
+.registration-shapes1 img{
+    animation: moveleftbounce 4s linear infinite;
+}
+.registration-shapes2 img{
+    animation: rotateme 50s linear infinite;
+}
+.registration-shapes3 img{
+    animation: movescale 4s linear infinite;
+}
+
+
+@media (min-width:1024px) and (max-width:1300px) {
+    .form-area{
+        padding: 0px 200px 40px 200px;
+    }
+    
+}
+
+@media (min-width:992px) and (max-width:1023px) {
+    .form-area{
+        padding: 0px 150px 40px 150px;
+    }
+    
+}
+@media (min-width:768px) and (max-width:991px) {
+    .form-area{
+        padding: 0px 100px 40px 100px;
+    }
+    
+}
+@media  (max-width:767px) {
+    .form-area{
+        padding: 0px 10px 40px 10px;
+    }
+    .registration-title-content h2{
+    font-size: 26px;
+}
+    
+}

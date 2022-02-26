@@ -1,0 +1,12 @@
+ERROR - 2022-02-26 11:42:06 --> Error connecting to the database: Unknown database 'alba_educati'
+CRITICAL - 2022-02-26 11:42:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'alba_educati'
+#0 C:\xampp\htdocs\Alba_educations\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Alba_educations\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\Alba_educations\app\Models\frontEnd\User_Model.php(57): CodeIgniter\Database\BaseBuilder->countAllResults()
+#3 C:\xampp\htdocs\Alba_educations\app\Controllers\FrontEnd\Admin_login.php(39): App\Models\frontEnd\User_model->admin_login_request(Array)
+#4 C:\xampp\htdocs\Alba_educations\system\CodeIgniter.php(928): App\Controllers\FrontEnd\Admin_login->admin_login()
+#5 C:\xampp\htdocs\Alba_educations\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontEnd\Admin_login))
+#6 C:\xampp\htdocs\Alba_educations\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Alba_educations\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
